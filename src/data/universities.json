@@ -1,0 +1,1508 @@
+{
+  "universities": [
+    {
+      "id": "unilag",
+      "name": "University of Lagos (UNILAG)",
+      "location": "Lagos, Nigeria",
+      "description": "Premier university in Lagos State, known for excellence in education and research.",
+      "campus_map": [
+        { "id": "jaja", "name": "Jaja Hostel", "type": "hostel", "lat": 6.516, "lng": 3.391, "description": "Male hostel accommodation" },
+        { "id": "main-lib", "name": "Main Library", "type": "library", "lat": 6.518, "lng": 3.393, "description": "Central academic library with extensive resources" },
+        { "id": "eng-faculty", "name": "Faculty of Engineering", "type": "faculty", "lat": 6.519, "lng": 3.395, "description": "Engineering faculty building" },
+        { "id": "kofo", "name": "Kofo Hall", "type": "hostel", "lat": 6.517, "lng": 3.392, "description": "Female hostel accommodation" },
+        { "id": "gtbank", "name": "GTBank ATM", "type": "bank", "lat": 6.518, "lng": 3.394, "description": "ATM and banking services" }
+      ],
+      "hostels": [
+        { "name": "Jaja Hostel", "price": "₦40,000", "gender": "Male", "capacity": "200 students", "facilities": ["WiFi", "Study rooms", "Laundry"] },
+        { "name": "Kofo Hall", "price": "₦45,000", "gender": "Female", "capacity": "180 students", "facilities": ["WiFi", "Common room", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Main Gate to Moremi Hall", "fare": "₦100", "schedule": "7:00 AM - 10:00 PM" },
+        { "type": "Bike Ride", "route": "Faculty to Hostels", "fare": "₦150", "schedule": "24/7" },
+        { "type": "Tricycle", "route": "Campus to Yaba", "fare": "₦200", "schedule": "6:00 AM - 11:00 PM" }
+      ],
+      "food": [
+        { "name": "New Hall Canteen", "type": "cafeteria", "price_range": "₦500-₦1000", "location": "New Hall", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Campus Suya Spot", "type": "fast food", "price_range": "₦300-₦800", "location": "Main Gate", "hours": "5:00 PM - 12:00 AM" },
+        { "name": "Faculty Cafeteria", "type": "cafeteria", "price_range": "₦400-₦900", "location": "Faculty Building", "hours": "8:00 AM - 6:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://studentportal.unilag.edu",
+        "academic_calendar": "https://unilag.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Engineering", "email": "eng@unilag.edu", "phone": "+234-1-234-5678" },
+          { "faculty": "Science", "email": "science@unilag.edu", "phone": "+234-1-234-5679" },
+          { "faculty": "Arts", "email": "arts@unilag.edu", "phone": "+234-1-234-5680" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Bursary", "location": "Finance Building", "hours": "9:00 AM - 3:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "GTBank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "Campus Printing Shop", "type": "printing", "location": "Student Center", "hours": "8:00 AM - 8:00 PM" },
+        { "name": "Health Center", "type": "healthcare", "location": "Medical Building", "hours": "24/7" },
+        { "name": "Campus Bookstore", "type": "bookstore", "location": "Library Complex", "hours": "9:00 AM - 6:00 PM" }
+      ]
+    },
+    {
+      "id": "ui",
+      "name": "University of Ibadan (UI)",
+      "location": "Ibadan, Nigeria",
+      "description": "Nigeria's premier university, established in 1948 with a rich academic heritage.",
+      "campus_map": [
+        { "id": "mellanby", "name": "Mellanby Hall", "type": "hostel", "lat": 7.441, "lng": 3.898, "description": "Historic male hostel" },
+        { "id": "kenneth-lib", "name": "Kenneth Dike Library", "type": "library", "lat": 7.442, "lng": 3.899, "description": "Main university library" },
+        { "id": "queen-elizabeth", "name": "Queen Elizabeth Hall", "type": "hostel", "lat": 7.440, "lng": 3.897, "description": "Female hostel accommodation" },
+        { "id": "firstbank", "name": "First Bank ATM", "type": "bank", "lat": 7.441, "lng": 3.898, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Mellanby Hall", "price": "₦35,000", "gender": "Male", "capacity": "300 students", "facilities": ["WiFi", "Recreation room", "Dining hall"] },
+        { "name": "Queen Elizabeth Hall", "price": "₦37,000", "gender": "Female", "capacity": "250 students", "facilities": ["WiFi", "Study areas", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Zik Hall", "fare": "₦80", "schedule": "6:30 AM - 10:30 PM" },
+        { "type": "Motorcycle", "route": "Campus to Bodija", "fare": "₦300", "schedule": "6:00 AM - 11:00 PM" }
+      ],
+      "food": [
+        { "name": "Zik Cafeteria", "type": "cafeteria", "price_range": "₦400-₦800", "location": "Zik Hall", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦600-₦1200", "location": "Faculty Area", "hours": "11:00 AM - 8:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.ui.edu.ng",
+        "academic_calendar": "https://ui.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Law", "email": "law@ui.edu.ng", "phone": "+234-2-810-1234" },
+          { "faculty": "Medicine", "email": "med@ui.edu.ng", "phone": "+234-2-810-1235" },
+          { "faculty": "Social Sciences", "email": "socsci@ui.edu.ng", "phone": "+234-2-810-1236" }
+        ],
+        "important_offices": [
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Student Affairs", "location": "Admin Block", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "First Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "Campus Cyber Café", "type": "internet", "location": "Student Union", "hours": "7:00 AM - 10:00 PM" },
+        { "name": "University Health Services", "type": "healthcare", "location": "Health Center", "hours": "24/7" }
+      ]
+    },
+    {
+      "id": "unn",
+      "name": "University of Nigeria, Nsukka (UNN)",
+      "location": "Nsukka, Nigeria",
+      "description": "First indigenous university in Nigeria, established in 1960 with a focus on African studies and development.",
+      "campus_map": [
+        { "id": "aja", "name": "Aja Hall", "type": "hostel", "lat": 6.857, "lng": 7.395, "description": "Male hostel accommodation" },
+        { "id": "azikiwe-lib", "name": "Nnamdi Azikiwe Library", "type": "library", "lat": 6.858, "lng": 7.396, "description": "Main university library" },
+        { "id": "okpara", "name": "Okpara Hall", "type": "hostel", "lat": 6.856, "lng": 7.394, "description": "Female hostel accommodation" },
+        { "id": "uba-atm", "name": "UBA ATM", "type": "bank", "lat": 6.857, "lng": 7.395, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Aja Hall", "price": "₦38,000", "gender": "Male", "capacity": "280 students", "facilities": ["WiFi", "Sports facilities", "Study rooms"] },
+        { "name": "Okpara Hall", "price": "₦39,000", "gender": "Female", "capacity": "220 students", "facilities": ["WiFi", "Common areas", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Main Gate to Social Science Faculty", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Nsukka Town", "fare": "₦250", "schedule": "6:00 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Dome Canteen", "type": "cafeteria", "price_range": "₦500-₦1000", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Eatery", "type": "restaurant", "price_range": "₦400-₦900", "location": "Faculty Complex", "hours": "8:00 AM - 7:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://unn.edu.ng/student-portal",
+        "academic_calendar": "https://unn.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Arts", "email": "arts@unn.edu.ng", "phone": "+234-42-771-234" },
+          { "faculty": "Engineering", "email": "eng@unn.edu.ng", "phone": "+234-42-771-235" },
+          { "faculty": "Agriculture", "email": "agric@unn.edu.ng", "phone": "+234-42-771-236" }
+        ],
+        "important_offices": [
+          { "office": "Academic Office", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "UBA ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "Campus Printing & Photocopy", "type": "printing", "location": "Student Union", "hours": "8:00 AM - 8:00 PM" },
+        { "name": "University Medical Center", "type": "healthcare", "location": "Medical Complex", "hours": "24/7" },
+        { "name": "Campus Bookshop", "type": "bookstore", "location": "Library Area", "hours": "9:00 AM - 6:00 PM" }
+      ]
+    },
+    {
+      "id": "abu",
+      "name": "Ahmadu Bello University (ABU)",
+      "location": "Zaria, Nigeria",
+      "description": "One of Nigeria's largest universities, established in 1962 with a strong focus on agriculture and engineering.",
+      "campus_map": [
+        { "id": "kongo", "name": "Kongo Campus", "type": "campus", "lat": 11.151, "lng": 7.671, "description": "Main campus area" },
+        { "id": "kashim-lib", "name": "Kashim Ibrahim Library", "type": "library", "lat": 11.152, "lng": 7.672, "description": "Central university library" },
+        { "id": "sultan-bello", "name": "Sultan Bello Hall", "type": "hostel", "lat": 11.150, "lng": 7.670, "description": "Male hostel accommodation" },
+        { "id": "queen-amina", "name": "Queen Amina Hall", "type": "hostel", "lat": 11.153, "lng": 7.673, "description": "Female hostel accommodation" },
+        { "id": "zenith-atm", "name": "Zenith Bank ATM", "type": "bank", "lat": 11.151, "lng": 7.671, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Sultan Bello Hall", "price": "₦42,000", "gender": "Male", "capacity": "350 students", "facilities": ["WiFi", "Sports complex", "Study halls"] },
+        { "name": "Queen Amina Hall", "price": "₦44,000", "gender": "Female", "capacity": "280 students", "facilities": ["WiFi", "Common rooms", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Samaru", "fare": "₦120", "schedule": "6:00 AM - 10:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Zaria City", "fare": "₦300", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Motorcycle", "route": "Inter-campus transport", "fare": "₦200", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "Samaru Cafeteria", "type": "cafeteria", "price_range": "₦450-₦950", "location": "Samaru Campus", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Kongo Restaurant", "type": "restaurant", "price_range": "₦600-₦1300", "location": "Kongo Campus", "hours": "11:00 AM - 9:00 PM" },
+        { "name": "Student Union Eatery", "type": "fast food", "price_range": "₦300-₦700", "location": "Student Union", "hours": "8:00 AM - 8:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.abu.edu.ng",
+        "academic_calendar": "https://abu.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Agriculture", "email": "agric@abu.edu.ng", "phone": "+234-69-550-1234" },
+          { "faculty": "Engineering", "email": "eng@abu.edu.ng", "phone": "+234-69-550-1235" },
+          { "faculty": "Medicine", "email": "med@abu.edu.ng", "phone": "+234-69-550-1236" },
+          { "faculty": "Veterinary Medicine", "email": "vetmed@abu.edu.ng", "phone": "+234-69-550-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Bursary", "location": "Finance Building", "hours": "9:00 AM - 3:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Zenith Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "Campus Health Center", "type": "healthcare", "location": "Medical Complex", "hours": "24/7" },
+        { "name": "ABU Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Internet Café", "type": "internet", "location": "Library Complex", "hours": "7:00 AM - 11:00 PM" }
+      ]
+    },
+    {
+      "id": "uniben",
+      "name": "University of Benin (UNIBEN)",
+      "location": "Benin City, Nigeria",
+      "description": "A leading university in South-South Nigeria, established in 1970 with excellence in medicine and engineering.",
+      "campus_map": [
+        { "id": "ekenwan", "name": "Ekenwan Campus", "type": "campus", "lat": 6.400, "lng": 5.625, "description": "Main campus location" },
+        { "id": "john-harris", "name": "John Harris Library", "type": "library", "lat": 6.401, "lng": 5.626, "description": "Main university library" },
+        { "id": "adesuwa", "name": "Adesuwa Hall", "type": "hostel", "lat": 6.399, "lng": 5.624, "description": "Female hostel accommodation" },
+        { "id": "emotan", "name": "Emotan Hall", "type": "hostel", "lat": 6.402, "lng": 5.627, "description": "Male hostel accommodation" },
+        { "id": "access-atm", "name": "Access Bank ATM", "type": "bank", "lat": 6.400, "lng": 5.625, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Adesuwa Hall", "price": "₦41,000", "gender": "Female", "capacity": "260 students", "facilities": ["WiFi", "Study rooms", "Recreation area"] },
+        { "name": "Emotan Hall", "price": "₦39,000", "gender": "Male", "capacity": "300 students", "facilities": ["WiFi", "Sports facilities", "Common rooms"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Main Gate to Faculty Areas", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Ring Road", "fare": "₦250", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Benin City", "fare": "₦150", "schedule": "6:30 AM - 10:30 PM" }
+      ],
+      "food": [
+        { "name": "Faculty Cafeteria", "type": "cafeteria", "price_range": "₦400-₦850", "location": "Faculty Building", "hours": "7:30 AM - 8:30 PM" },
+        { "name": "Student Union Restaurant", "type": "restaurant", "price_range": "₦550-₦1100", "location": "Student Union", "hours": "10:00 AM - 9:00 PM" },
+        { "name": "Ekenwan Eatery", "type": "fast food", "price_range": "₦350-₦750", "location": "Main Campus", "hours": "8:00 AM - 10:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.uniben.edu",
+        "academic_calendar": "https://uniben.edu/calendar",
+        "faculty_contacts": [
+          { "faculty": "Medicine", "email": "med@uniben.edu", "phone": "+234-52-600-1234" },
+          { "faculty": "Engineering", "email": "eng@uniben.edu", "phone": "+234-52-600-1235" },
+          { "faculty": "Law", "email": "law@uniben.edu", "phone": "+234-52-600-1236" },
+          { "faculty": "Pharmacy", "email": "pharm@uniben.edu", "phone": "+234-52-600-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Block", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Bursary", "location": "Finance Building", "hours": "9:00 AM - 3:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Access Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Services", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "Campus Bookstore", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "ICT Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "uniport",
+      "name": "University of Port Harcourt (UNIPORT)",
+      "location": "Port Harcourt, Nigeria",
+      "description": "A prestigious university in the Niger Delta region, established in 1975 with strong programs in petroleum engineering.",
+      "campus_map": [
+        { "id": "choba", "name": "Choba Campus", "type": "campus", "lat": 4.898, "lng": 6.913, "description": "Main campus area" },
+        { "id": "central-lib", "name": "Central Library", "type": "library", "lat": 4.899, "lng": 6.914, "description": "Main university library" },
+        { "id": "alvan", "name": "Alvan Ikoku Hall", "type": "hostel", "lat": 4.897, "lng": 6.912, "description": "Male hostel accommodation" },
+        { "id": "nddc", "name": "NDDC Hall", "type": "hostel", "lat": 4.900, "lng": 6.915, "description": "Female hostel accommodation" },
+        { "id": "fidelity-atm", "name": "Fidelity Bank ATM", "type": "bank", "lat": 4.898, "lng": 6.913, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Alvan Ikoku Hall", "price": "₦43,000", "gender": "Male", "capacity": "320 students", "facilities": ["WiFi", "Study areas", "Recreation facilities"] },
+        { "name": "NDDC Hall", "price": "₦45,000", "gender": "Female", "capacity": "250 students", "facilities": ["WiFi", "Common rooms", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Complex", "fare": "₦120", "schedule": "7:00 AM - 9:30 PM" },
+        { "type": "Tricycle", "route": "Campus to Choba Junction", "fare": "₦200", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Port Harcourt City", "fare": "₦300", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Choba Cafeteria", "type": "cafeteria", "price_range": "₦500-₦1000", "location": "Main Campus", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦650-₦1250", "location": "Faculty Area", "hours": "11:00 AM - 8:30 PM" },
+        { "name": "Student Center Eatery", "type": "fast food", "price_range": "₦400-₦800", "location": "Student Center", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.uniport.edu.ng",
+        "academic_calendar": "https://uniport.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Engineering", "email": "eng@uniport.edu.ng", "phone": "+234-84-817-1234" },
+          { "faculty": "Science", "email": "science@uniport.edu.ng", "phone": "+234-84-817-1235" },
+          { "faculty": "Management Sciences", "email": "mgt@uniport.edu.ng", "phone": "+234-84-817-1236" },
+          { "faculty": "Law", "email": "law@uniport.edu.ng", "phone": "+234-84-817-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Bursary", "location": "Finance Building", "hours": "9:00 AM - 3:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Fidelity Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Medical Center", "type": "healthcare", "location": "Medical Complex", "hours": "24/7" },
+        { "name": "Campus Bookshop", "type": "bookstore", "location": "Library Area", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Computer Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "oau",
+      "name": "Obafemi Awolowo University (OAU)",
+      "location": "Ile-Ife, Nigeria",
+      "description": "One of Nigeria's most beautiful campuses, established in 1961 with excellence in natural sciences and humanities.",
+      "campus_map": [
+        { "id": "ife-campus", "name": "Ife Campus", "type": "campus", "lat": 7.522, "lng": 4.520, "description": "Main campus with natural beauty" },
+        { "id": "hezekiah-lib", "name": "Hezekiah Oluwasanmi Library", "type": "library", "lat": 7.523, "lng": 4.521, "description": "Central university library" },
+        { "id": "angola", "name": "Angola Hall", "type": "hostel", "lat": 7.521, "lng": 4.519, "description": "Male hostel accommodation" },
+        { "id": "mozambique", "name": "Mozambique Hall", "type": "hostel", "lat": 7.524, "lng": 4.522, "description": "Female hostel accommodation" },
+        { "id": "wema-atm", "name": "Wema Bank ATM", "type": "bank", "lat": 7.522, "lng": 4.520, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Angola Hall", "price": "₦40,000", "gender": "Male", "capacity": "280 students", "facilities": ["WiFi", "Sports complex", "Study rooms"] },
+        { "name": "Mozambique Hall", "price": "₦42,000", "gender": "Female", "capacity": "240 students", "facilities": ["WiFi", "Common areas", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Main Gate to Faculty Areas", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Ife Town", "fare": "₦200", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Osogbo", "fare": "₦400", "schedule": "7:00 AM - 8:00 PM" }
+      ],
+      "food": [
+        { "name": "Amphitheatre Cafeteria", "type": "cafeteria", "price_range": "₦450-₦900", "location": "Amphitheatre", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦600-₦1200", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Student Union Eatery", "type": "fast food", "price_range": "₦350-₦750", "location": "Student Union", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.oauife.edu.ng",
+        "academic_calendar": "https://oauife.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Science", "email": "science@oauife.edu.ng", "phone": "+234-36-230-1234" },
+          { "faculty": "Arts", "email": "arts@oauife.edu.ng", "phone": "+234-36-230-1235" },
+          { "faculty": "Technology", "email": "tech@oauife.edu.ng", "phone": "+234-36-230-1236" },
+          { "faculty": "Pharmacy", "email": "pharm@oauife.edu.ng", "phone": "+234-36-230-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Wema Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "OAU Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "ICT Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "unilorin",
+      "name": "University of Ilorin (UNILORIN)",
+      "location": "Ilorin, Nigeria",
+      "description": "Known for academic excellence and minimal disruptions, established in 1975 with a strong reputation for quality education.",
+      "campus_map": [
+        { "id": "main-campus", "name": "Main Campus", "type": "campus", "lat": 8.484, "lng": 4.677, "description": "Main university campus" },
+        { "id": "university-lib", "name": "University Library", "type": "library", "lat": 8.485, "lng": 4.678, "description": "Central academic library" },
+        { "id": "abdulsalam", "name": "Abdulsalam Hall", "type": "hostel", "lat": 8.483, "lng": 4.676, "description": "Male hostel accommodation" },
+        { "id": "ilorin-hall", "name": "Ilorin Hall", "type": "hostel", "lat": 8.486, "lng": 4.679, "description": "Female hostel accommodation" },
+        { "id": "union-atm", "name": "Union Bank ATM", "type": "bank", "lat": 8.484, "lng": 4.677, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Abdulsalam Hall", "price": "₦38,000", "gender": "Male", "capacity": "300 students", "facilities": ["WiFi", "Study halls", "Recreation area"] },
+        { "name": "Ilorin Hall", "price": "₦40,000", "gender": "Female", "capacity": "260 students", "facilities": ["WiFi", "Common rooms", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦80", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Ilorin City", "fare": "₦250", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Motorcycle", "route": "Inter-campus transport", "fare": "₦150", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "Main Cafeteria", "type": "cafeteria", "price_range": "₦400-₦800", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Eatery", "type": "restaurant", "price_range": "₦550-₦1100", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Campus Fast Food", "type": "fast food", "price_range": "₦300-₦650", "location": "Main Campus", "hours": "8:00 AM - 10:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://uilportal.unilorin.edu.ng",
+        "academic_calendar": "https://unilorin.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Education", "email": "education@unilorin.edu.ng", "phone": "+234-31-221-1234" },
+          { "faculty": "Engineering", "email": "eng@unilorin.edu.ng", "phone": "+234-31-221-1235" },
+          { "faculty": "Medicine", "email": "med@unilorin.edu.ng", "phone": "+234-31-221-1236" },
+          { "faculty": "Agriculture", "email": "agric@unilorin.edu.ng", "phone": "+234-31-221-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Bursary", "location": "Finance Building", "hours": "9:00 AM - 3:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Union Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Services", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "Campus Bookstore", "type": "bookstore", "location": "Library Complex", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Computer Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "futo",
+      "name": "Federal University of Technology, Owerri (FUTO)",
+      "location": "Owerri, Nigeria",
+      "description": "A specialized technology university established in 1980, known for engineering and applied sciences.",
+      "campus_map": [
+        { "id": "futo-campus", "name": "FUTO Campus", "type": "campus", "lat": 5.398, "lng": 7.048, "description": "Main technology campus" },
+        { "id": "tech-lib", "name": "Technology Library", "type": "library", "lat": 5.399, "lng": 7.049, "description": "Specialized technology library" },
+        { "id": "ihiagwa", "name": "Ihiagwa Hall", "type": "hostel", "lat": 5.397, "lng": 7.047, "description": "Male hostel accommodation" },
+        { "id": "nekede", "name": "Nekede Hall", "type": "hostel", "lat": 5.400, "lng": 7.050, "description": "Female hostel accommodation" },
+        { "id": "ecobank-atm", "name": "Ecobank ATM", "type": "bank", "lat": 5.398, "lng": 7.048, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Ihiagwa Hall", "price": "₦41,000", "gender": "Male", "capacity": "270 students", "facilities": ["WiFi", "Engineering labs access", "Study rooms"] },
+        { "name": "Nekede Hall", "price": "₦43,000", "gender": "Female", "capacity": "220 students", "facilities": ["WiFi", "Common areas", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Main Gate to School of Engineering", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Owerri City", "fare": "₦300", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Douglas Road", "fare": "₦200", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Engineering Cafeteria", "type": "cafeteria", "price_range": "₦450-₦900", "location": "Engineering Complex", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Student Center Restaurant", "type": "restaurant", "price_range": "₦600-₦1200", "location": "Student Center", "hours": "11:00 AM - 8:30 PM" },
+        { "name": "Tech Eatery", "type": "fast food", "price_range": "₦350-₦750", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.futo.edu.ng",
+        "academic_calendar": "https://futo.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Engineering", "email": "eng@futo.edu.ng", "phone": "+234-83-230-1234" },
+          { "faculty": "Science", "email": "science@futo.edu.ng", "phone": "+234-83-230-1235" },
+          { "faculty": "Technology", "email": "tech@futo.edu.ng", "phone": "+234-83-230-1236" },
+          { "faculty": "Agriculture", "email": "agric@futo.edu.ng", "phone": "+234-83-230-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Ecobank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "FUTO Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "ICT Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "bayero",
+      "name": "Bayero University Kano (BUK)",
+      "location": "Kano, Nigeria",
+      "description": "A leading university in Northern Nigeria, established in 1975 with strong Islamic and conventional education programs.",
+      "campus_map": [
+        { "id": "new-site", "name": "New Site Campus", "type": "campus", "lat": 12.000, "lng": 8.520, "description": "Main campus location" },
+        { "id": "ramat-lib", "name": "Ramat Library", "type": "library", "lat": 12.001, "lng": 8.521, "description": "Central university library" },
+        { "id": "aminu-kano", "name": "Aminu Kano Hall", "type": "hostel", "lat": 11.999, "lng": 8.519, "description": "Male hostel accommodation" },
+        { "id": "hajiya-hall", "name": "Hajiya Gambo Hall", "type": "hostel", "lat": 12.002, "lng": 8.522, "description": "Female hostel accommodation" },
+        { "id": "jaiz-atm", "name": "Jaiz Bank ATM", "type": "bank", "lat": 12.000, "lng": 8.520, "description": "Islamic banking services" }
+      ],
+      "hostels": [
+        { "name": "Aminu Kano Hall", "price": "₦36,000", "gender": "Male", "capacity": "400 students", "facilities": ["WiFi", "Mosque", "Study halls"] },
+        { "name": "Hajiya Gambo Hall", "price": "₦38,000", "gender": "Female", "capacity": "320 students", "facilities": ["WiFi", "Prayer room", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦80", "schedule": "6:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Kano City", "fare": "₦300", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Motorcycle", "route": "Inter-campus transport", "fare": "₦150", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "Central Cafeteria", "type": "cafeteria", "price_range": "₦350-₦750", "location": "Student Center", "hours": "6:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦500-₦1000", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Halal Eatery", "type": "fast food", "price_range": "₦250-₦600", "location": "Main Campus", "hours": "7:00 AM - 10:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.buk.edu.ng",
+        "academic_calendar": "https://buk.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Arts & Islamic Studies", "email": "arts@buk.edu.ng", "phone": "+234-64-666-1234" },
+          { "faculty": "Science", "email": "science@buk.edu.ng", "phone": "+234-64-666-1235" },
+          { "faculty": "Education", "email": "education@buk.edu.ng", "phone": "+234-64-666-1236" },
+          { "faculty": "Law", "email": "law@buk.edu.ng", "phone": "+234-64-666-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Jaiz Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "BUK Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Computer Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "unical",
+      "name": "University of Calabar (UNICAL)",
+      "location": "Calabar, Nigeria",
+      "description": "A prestigious university in Cross River State, established in 1975 with beautiful campus and strong academic programs.",
+      "campus_map": [
+        { "id": "unical-campus", "name": "UNICAL Campus", "type": "campus", "lat": 4.950, "lng": 8.327, "description": "Main university campus" },
+        { "id": "unical-lib", "name": "University Library", "type": "library", "lat": 4.951, "lng": 8.328, "description": "Central academic library" },
+        { "id": "mary-slessor", "name": "Mary Slessor Hall", "type": "hostel", "lat": 4.949, "lng": 8.326, "description": "Female hostel accommodation" },
+        { "id": "calabar-hall", "name": "Calabar Hall", "type": "hostel", "lat": 4.952, "lng": 8.329, "description": "Male hostel accommodation" },
+        { "name": "Skye Bank ATM", "type": "bank", "lat": 4.950, "lng": 8.327, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Mary Slessor Hall", "price": "₦42,000", "gender": "Female", "capacity": "280 students", "facilities": ["WiFi", "Study rooms", "Recreation area"] },
+        { "name": "Calabar Hall", "price": "₦40,000", "gender": "Male", "capacity": "320 students", "facilities": ["WiFi", "Sports facilities", "Common rooms"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Main Gate to Faculty Complex", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Calabar City", "fare": "₦250", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Watt Market", "fare": "₦150", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Faculty Cafeteria", "type": "cafeteria", "price_range": "₦450-₦900", "location": "Faculty Building", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Student Union Restaurant", "type": "restaurant", "price_range": "₦600-₦1200", "location": "Student Union", "hours": "11:00 AM - 8:30 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦350-₦750", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.unical.edu.ng",
+        "academic_calendar": "https://unical.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Medicine", "email": "med@unical.edu.ng", "phone": "+234-87-290-1234" },
+          { "faculty": "Law", "email": "law@unical.edu.ng", "phone": "+234-87-290-1235" },
+          { "faculty": "Science", "email": "science@unical.edu.ng", "phone": "+234-87-290-1236" },
+          { "faculty": "Arts", "email": "arts@unical.edu.ng", "phone": "+234-87-290-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Skye Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Medical Center", "type": "healthcare", "location": "Medical Complex", "hours": "24/7" },
+        { "name": "Campus Bookstore", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "ICT Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "uniuyo",
+      "name": "University of Uyo (UNIUYO)",
+      "location": "Uyo, Nigeria",
+      "description": "A rapidly growing university in Akwa Ibom State, established in 1991 with modern facilities and programs.",
+      "campus_map": [
+        { "id": "uniuyo-campus", "name": "UNIUYO Campus", "type": "campus", "lat": 5.038, "lng": 7.907, "description": "Main university campus" },
+        { "id": "uniuyo-lib", "name": "University Library", "type": "library", "lat": 5.039, "lng": 7.908, "description": "Central academic library" },
+        { "id": "akpabio-hall", "name": "Akpabio Hall", "type": "hostel", "lat": 5.037, "lng": 7.906, "description": "Male hostel accommodation" },
+        { "id": "martha-hall", "name": "Martha Udom Hall", "type": "hostel", "lat": 5.040, "lng": 7.909, "description": "Female hostel accommodation" },
+        { "id": "sterling-atm", "name": "Sterling Bank ATM", "type": "bank", "lat": 5.038, "lng": 7.907, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Akpabio Hall", "price": "₦44,000", "gender": "Male", "capacity": "300 students", "facilities": ["WiFi", "Study areas", "Sports complex"] },
+        { "name": "Martha Udom Hall", "price": "₦46,000", "gender": "Female", "capacity": "250 students", "facilities": ["WiFi", "Common rooms", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦120", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Uyo City", "fare": "₦200", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Ikot Ekpene Road", "fare": "₦180", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Central Cafeteria", "type": "cafeteria", "price_range": "₦500-₦1000", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦650-₦1300", "location": "Faculty Complex", "hours": "11:00 AM - 8:30 PM" },
+        { "name": "Campus Fast Food", "type": "fast food", "price_range": "₦400-₦800", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.uniuyo.edu.ng",
+        "academic_calendar": "https://uniuyo.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Engineering", "email": "eng@uniuyo.edu.ng", "phone": "+234-85-200-1234" },
+          { "faculty": "Medicine", "email": "med@uniuyo.edu.ng", "phone": "+234-85-200-1235" },
+          { "faculty": "Science", "email": "science@uniuyo.edu.ng", "phone": "+234-85-200-1236" },
+          { "faculty": "Management Sciences", "email": "mgt@uniuyo.edu.ng", "phone": "+234-85-200-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Sterling Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "UNIUYO Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Computer Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "lasu",
+      "name": "Lagos State University (LASU)",
+      "location": "Lagos, Nigeria",
+      "description": "A state university established in 1983, known for affordable quality education and diverse academic programs.",
+      "campus_map": [
+        { "id": "ojo-campus", "name": "Ojo Campus", "type": "campus", "lat": 6.458, "lng": 3.196, "description": "Main campus location" },
+        { "id": "lasu-lib", "name": "LASU Library", "type": "library", "lat": 6.459, "lng": 3.197, "description": "Central university library" },
+        { "id": "lagos-hall", "name": "Lagos Hall", "type": "hostel", "lat": 6.457, "lng": 3.195, "description": "Male hostel accommodation" },
+        { "id": "eko-hall", "name": "Eko Hall", "type": "hostel", "lat": 6.460, "lng": 3.198, "description": "Female hostel accommodation" },
+        { "id": "polaris-atm", "name": "Polaris Bank ATM", "type": "bank", "lat": 6.458, "lng": 3.196, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Lagos Hall", "price": "₦35,000", "gender": "Male", "capacity": "250 students", "facilities": ["WiFi", "Study rooms", "Recreation area"] },
+        { "name": "Eko Hall", "price": "₦37,000", "gender": "Female", "capacity": "200 students", "facilities": ["WiFi", "Common rooms", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "BRT Bus", "route": "Campus to Mile 2", "fare": "₦200", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Ojo Town", "fare": "₦150", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "Student Cafeteria", "type": "cafeteria", "price_range": "₦400-₦800", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦550-₦1100", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦300-₦650", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.lasu.edu.ng",
+        "academic_calendar": "https://lasu.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Law", "email": "law@lasu.edu.ng", "phone": "+234-1-524-1234" },
+          { "faculty": "Science", "email": "science@lasu.edu.ng", "phone": "+234-1-524-1235" },
+          { "faculty": "Arts", "email": "arts@lasu.edu.ng", "phone": "+234-1-524-1236" },
+          { "faculty": "Management Sciences", "email": "mgt@lasu.edu.ng", "phone": "+234-1-524-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Polaris Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "LASU Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "ICT Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "eksu",
+      "name": "Ekiti State University (EKSU)",
+      "location": "Ado-Ekiti, Nigeria",
+      "description": "A state university established in 1982, known for academic excellence and beautiful hilltop campus.",
+      "campus_map": [
+        { "id": "iworoko-campus", "name": "Iworoko Campus", "type": "campus", "lat": 7.621, "lng": 5.221, "description": "Main hilltop campus" },
+        { "id": "eksu-lib", "name": "EKSU Library", "type": "library", "lat": 7.622, "lng": 5.222, "description": "Central university library" },
+        { "id": "fountain-hall", "name": "Fountain Hall", "type": "hostel", "lat": 7.620, "lng": 5.220, "description": "Male hostel accommodation" },
+        { "id": "ekiti-hall", "name": "Ekiti Hall", "type": "hostel", "lat": 7.623, "lng": 5.223, "description": "Female hostel accommodation" },
+        { "id": "heritage-atm", "name": "Heritage Bank ATM", "type": "bank", "lat": 7.621, "lng": 5.221, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Fountain Hall", "price": "₦38,000", "gender": "Male", "capacity": "280 students", "facilities": ["WiFi", "Study halls", "Mountain view"] },
+        { "name": "Ekiti Hall", "price": "₦40,000", "gender": "Female", "capacity": "240 students", "facilities": ["WiFi", "Common areas", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Main Gate to Faculty Areas", "fare": "₦80", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Ado-Ekiti", "fare": "₦200", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Fajuyi", "fare": "₦150", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Hilltop Cafeteria", "type": "cafeteria", "price_range": "₦400-₦850", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦550-₦1100", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦350-₦700", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.eksu.edu.ng",
+        "academic_calendar": "https://eksu.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Medicine", "email": "med@eksu.edu.ng", "phone": "+234-30-250-1234" },
+          { "faculty": "Science", "email": "science@eksu.edu.ng", "phone": "+234-30-250-1235" },
+          { "faculty": "Arts", "email": "arts@eksu.edu.ng", "phone": "+234-30-250-1236" },
+          { "faculty": "Engineering", "email": "eng@eksu.edu.ng", "phone": "+234-30-250-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Heritage Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "EKSU Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Computer Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "delsu",
+      "name": "Delta State University (DELSU)",
+      "location": "Abraka, Nigeria",
+      "description": "A state university established in 1992, known for its serene environment and quality education programs.",
+      "campus_map": [
+        { "id": "abraka-campus", "name": "Abraka Campus", "type": "campus", "lat": 5.795, "lng": 6.111, "description": "Main campus location" },
+        { "id": "delsu-lib", "name": "DELSU Library", "type": "library", "lat": 5.796, "lng": 6.112, "description": "Central university library" },
+        { "id": "delta-hall", "name": "Delta Hall", "type": "hostel", "lat": 5.794, "lng": 6.110, "description": "Male hostel accommodation" },
+        { "id": "urhobo-hall", "name": "Urhobo Hall", "type": "hostel", "lat": 5.797, "lng": 6.113, "description": "Female hostel accommodation" },
+        { "id": "keystone-atm", "name": "Keystone Bank ATM", "type": "bank", "lat": 5.795, "lng": 6.111, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Delta Hall", "price": "₦39,000", "gender": "Male", "capacity": "300 students", "facilities": ["WiFi", "Study rooms", "Sports facilities"] },
+        { "name": "Urhobo Hall", "price": "₦41,000", "gender": "Female", "capacity": "260 students", "facilities": ["WiFi", "Common areas", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Abraka Town", "fare": "₦150", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Warri", "fare": "₦500", "schedule": "7:00 AM - 6:00 PM" }
+      ],
+      "food": [
+        { "name": "Central Cafeteria", "type": "cafeteria", "price_range": "₦450-₦900", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦600-₦1200", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Campus Fast Food", "type": "fast food", "price_range": "₦350-₦750", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.delsu.edu.ng",
+        "academic_calendar": "https://delsu.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Medicine", "email": "med@delsu.edu.ng", "phone": "+234-54-600-1234" },
+          { "faculty": "Science", "email": "science@delsu.edu.ng", "phone": "+234-54-600-1235" },
+          { "faculty": "Education", "email": "education@delsu.edu.ng", "phone": "+234-54-600-1236" },
+          { "faculty": "Law", "email": "law@delsu.edu.ng", "phone": "+234-54-600-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Keystone Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "DELSU Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "ICT Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "unijos",
+      "name": "University of Jos (UNIJOS)",
+      "location": "Jos, Nigeria",
+      "description": "A federal university established in 1975, known for its cool climate and strong programs in natural sciences.",
+      "campus_map": [
+        { "id": "jos-campus", "name": "Jos Campus", "type": "campus", "lat": 9.928, "lng": 8.892, "description": "Main campus on the plateau" },
+        { "id": "unijos-lib", "name": "University Library", "type": "library", "lat": 9.929, "lng": 8.893, "description": "Central academic library" },
+        { "id": "plateau-hall", "name": "Plateau Hall", "type": "hostel", "lat": 9.927, "lng": 8.891, "description": "Male hostel accommodation" },
+        { "id": "benue-hall", "name": "Benue Hall", "type": "hostel", "lat": 9.930, "lng": 8.894, "description": "Female hostel accommodation" },
+        { "id": "stanbic-atm", "name": "Stanbic IBTC ATM", "type": "bank", "lat": 9.928, "lng": 8.892, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Plateau Hall", "price": "₦40,000", "gender": "Male", "capacity": "320 students", "facilities": ["WiFi", "Study rooms", "Cool climate"] },
+        { "name": "Benue Hall", "price": "₦42,000", "gender": "Female", "capacity": "280 students", "facilities": ["WiFi", "Common areas", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Jos City", "fare": "₦250", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Terminus", "fare": "₦200", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Plateau Cafeteria", "type": "cafeteria", "price_range": "₦450-₦900", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦600-₦1200", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦350-₦750", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.unijos.edu.ng",
+        "academic_calendar": "https://unijos.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Natural Sciences", "email": "science@unijos.edu.ng", "phone": "+234-73-610-1234" },
+          { "faculty": "Medicine", "email": "med@unijos.edu.ng", "phone": "+234-73-610-1235" },
+          { "faculty": "Engineering", "email": "eng@unijos.edu.ng", "phone": "+234-73-610-1236" },
+          { "faculty": "Arts", "email": "arts@unijos.edu.ng", "phone": "+234-73-610-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Stanbic IBTC ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "UNIJOS Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Computer Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "futminna",
+      "name": "Federal University of Technology, Minna (FUTMINNA)",
+      "location": "Minna, Nigeria",
+      "description": "A technology-focused university established in 1983, known for engineering and applied sciences.",
+      "campus_map": [
+        { "id": "gidan-kwano", "name": "Gidan Kwano Campus", "type": "campus", "lat": 9.610, "lng": 6.550, "description": "Main technology campus" },
+        { "id": "futminna-lib", "name": "Technology Library", "type": "library", "lat": 9.611, "lng": 6.551, "description": "Specialized technology library" },
+        { "id": "minna-hall", "name": "Minna Hall", "type": "hostel", "lat": 9.609, "lng": 6.549, "description": "Male hostel accommodation" },
+        { "id": "niger-hall", "name": "Niger Hall", "type": "hostel", "lat": 9.612, "lng": 6.552, "description": "Female hostel accommodation" },
+        { "id": "fcmb-atm", "name": "FCMB ATM", "type": "bank", "lat": 9.610, "lng": 6.550, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Minna Hall", "price": "₦41,000", "gender": "Male", "capacity": "280 students", "facilities": ["WiFi", "Engineering labs access", "Study rooms"] },
+        { "name": "Niger Hall", "price": "₦43,000", "gender": "Female", "capacity": "230 students", "facilities": ["WiFi", "Common areas", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to School of Engineering", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Minna City", "fare": "₦300", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Kure Market", "fare": "₦200", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Engineering Cafeteria", "type": "cafeteria", "price_range": "₦450-₦900", "location": "Engineering Complex", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Student Center Restaurant", "type": "restaurant", "price_range": "₦600-₦1200", "location": "Student Center", "hours": "11:00 AM - 8:30 PM" },
+        { "name": "Tech Eatery", "type": "fast food", "price_range": "₦350-₦750", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.futminna.edu.ng",
+        "academic_calendar": "https://futminna.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Engineering", "email": "eng@futminna.edu.ng", "phone": "+234-66-220-1234" },
+          { "faculty": "Science", "email": "science@futminna.edu.ng", "phone": "+234-66-220-1235" },
+          { "faculty": "Technology", "email": "tech@futminna.edu.ng", "phone": "+234-66-220-1236" },
+          { "faculty": "Agriculture", "email": "agric@futminna.edu.ng", "phone": "+234-66-220-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "FCMB ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "FUTMINNA Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "ICT Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "uniabuja",
+      "name": "University of Abuja (UNIABUJA)",
+      "location": "Abuja, Nigeria",
+      "description": "A federal university established in 1988, located in Nigeria's capital with modern facilities.",
+      "campus_map": [
+        { "id": "gwagwalada", "name": "Gwagwalada Campus", "type": "campus", "lat": 8.927, "lng": 7.084, "description": "Main campus in FCT" },
+        { "id": "uniabuja-lib", "name": "University Library", "type": "library", "lat": 8.928, "lng": 7.085, "description": "Central academic library" },
+        { "id": "abuja-hall", "name": "Abuja Hall", "type": "hostel", "lat": 8.926, "lng": 7.083, "description": "Male hostel accommodation" },
+        { "id": "fct-hall", "name": "FCT Hall", "type": "hostel", "lat": 8.929, "lng": 7.086, "description": "Female hostel accommodation" },
+        { "id": "unity-atm", "name": "Unity Bank ATM", "type": "bank", "lat": 8.927, "lng": 7.084, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Abuja Hall", "price": "₦45,000", "gender": "Male", "capacity": "300 students", "facilities": ["WiFi", "Modern facilities", "Study areas"] },
+        { "name": "FCT Hall", "price": "₦47,000", "gender": "Female", "capacity": "250 students", "facilities": ["WiFi", "Common rooms", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦120", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Bus", "route": "Campus to Gwagwalada", "fare": "₦200", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Taxi", "route": "Campus to Abuja City", "fare": "₦1500", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "Central Cafeteria", "type": "cafeteria", "price_range": "₦500-₦1000", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦700-₦1400", "location": "Faculty Complex", "hours": "11:00 AM - 8:30 PM" },
+        { "name": "Campus Fast Food", "type": "fast food", "price_range": "₦400-₦800", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.uniabuja.edu.ng",
+        "academic_calendar": "https://uniabuja.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Law", "email": "law@uniabuja.edu.ng", "phone": "+234-9-670-1234" },
+          { "faculty": "Medicine", "email": "med@uniabuja.edu.ng", "phone": "+234-9-670-1235" },
+          { "faculty": "Science", "email": "science@uniabuja.edu.ng", "phone": "+234-9-670-1236" },
+          { "faculty": "Management Sciences", "email": "mgt@uniabuja.edu.ng", "phone": "+234-9-670-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Unity Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "UNIABUJA Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Computer Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "unimaid",
+      "name": "University of Maiduguri (UNIMAID)",
+      "location": "Maiduguri, Nigeria",
+      "description": "A federal university established in 1975, serving the northeastern region with resilience and academic excellence.",
+      "campus_map": [
+        { "id": "unimaid-campus", "name": "UNIMAID Campus", "type": "campus", "lat": 11.840, "lng": 13.157, "description": "Main campus in Borno State" },
+        { "id": "unimaid-lib", "name": "University Library", "type": "library", "lat": 11.841, "lng": 13.158, "description": "Central academic library" },
+        { "id": "borno-hall", "name": "Borno Hall", "type": "hostel", "lat": 11.839, "lng": 13.156, "description": "Male hostel accommodation" },
+        { "id": "kanuri-hall", "name": "Kanuri Hall", "type": "hostel", "lat": 11.842, "lng": 13.159, "description": "Female hostel accommodation" },
+        { "id": "diamond-atm", "name": "Diamond Bank ATM", "type": "bank", "lat": 11.840, "lng": 13.157, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Borno Hall", "price": "₦35,000", "gender": "Male", "capacity": "350 students", "facilities": ["WiFi", "Study rooms", "Security"] },
+        { "name": "Kanuri Hall", "price": "₦37,000", "gender": "Female", "capacity": "280 students", "facilities": ["WiFi", "Common areas", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦80", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Maiduguri City", "fare": "₦250", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Monday Market", "fare": "₦200", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Central Cafeteria", "type": "cafeteria", "price_range": "₦350-₦700", "location": "Student Center", "hours": "6:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦500-₦1000", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦250-₦600", "location": "Main Campus", "hours": "7:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.unimaid.edu.ng",
+        "academic_calendar": "https://unimaid.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Medicine", "email": "med@unimaid.edu.ng", "phone": "+234-76-342-1234" },
+          { "faculty": "Science", "email": "science@unimaid.edu.ng", "phone": "+234-76-342-1235" },
+          { "faculty": "Agriculture", "email": "agric@unimaid.edu.ng", "phone": "+234-76-342-1236" },
+          { "faculty": "Arts", "email": "arts@unimaid.edu.ng", "phone": "+234-76-342-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Diamond Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "UNIMAID Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "ICT Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "osustech",
+      "name": "Osun State University (UNIOSUN)",
+      "location": "Osogbo, Nigeria",
+      "description": "A multi-campus state university established in 2006, known for innovative programs and modern approach to education.",
+      "campus_map": [
+        { "id": "osogbo-campus", "name": "Osogbo Campus", "type": "campus", "lat": 7.771, "lng": 4.567, "description": "Main campus location" },
+        { "id": "uniosun-lib", "name": "UNIOSUN Library", "type": "library", "lat": 7.772, "lng": 4.568, "description": "Central university library" },
+        { "id": "osun-hall", "name": "Osun Hall", "type": "hostel", "lat": 7.770, "lng": 4.566, "description": "Male hostel accommodation" },
+        { "id": "omoluabi-hall", "name": "Omoluabi Hall", "type": "hostel", "lat": 7.773, "lng": 4.569, "description": "Female hostel accommodation" },
+        { "id": "providus-atm", "name": "Providus Bank ATM", "type": "bank", "lat": 7.771, "lng": 4.567, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Osun Hall", "price": "₦38,000", "gender": "Male", "capacity": "260 students", "facilities": ["WiFi", "Modern facilities", "Study areas"] },
+        { "name": "Omoluabi Hall", "price": "₦40,000", "gender": "Female", "capacity": "220 students", "facilities": ["WiFi", "Common rooms", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Osogbo City", "fare": "₦200", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Olaiya Junction", "fare": "₦150", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Student Cafeteria", "type": "cafeteria", "price_range": "₦400-₦800", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦550-₦1100", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦300-₦650", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.uniosun.edu.ng",
+        "academic_calendar": "https://uniosun.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Health Sciences", "email": "health@uniosun.edu.ng", "phone": "+234-35-242-1234" },
+          { "faculty": "Science", "email": "science@uniosun.edu.ng", "phone": "+234-35-242-1235" },
+          { "faculty": "Agriculture", "email": "agric@uniosun.edu.ng", "phone": "+234-35-242-1236" },
+          { "faculty": "Law", "email": "law@uniosun.edu.ng", "phone": "+234-35-242-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Providus Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "UNIOSUN Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Computer Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "aaua",
+      "name": "Adekunle Ajasin University (AAUA)",
+      "location": "Akungba-Akoko, Nigeria",
+      "description": "A state university established in 1999, located in a serene hilltop town with focus on academic excellence.",
+      "campus_map": [
+        { "id": "akungba-campus", "name": "Akungba Campus", "type": "campus", "lat": 7.628, "lng": 5.744, "description": "Hilltop campus location" },
+        { "id": "aaua-lib", "name": "AAUA Library", "type": "library", "lat": 7.629, "lng": 5.745, "description": "Central university library" },
+        { "id": "ajasin-hall", "name": "Ajasin Hall", "type": "hostel", "lat": 7.627, "lng": 5.743, "description": "Male hostel accommodation" },
+        { "id": "akoko-hall", "name": "Akoko Hall", "type": "hostel", "lat": 7.630, "lng": 5.746, "description": "Female hostel accommodation" },
+        { "id": "gtbank-aaua", "name": "GTBank ATM", "type": "bank", "lat": 7.628, "lng": 5.744, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Ajasin Hall", "price": "₦36,000", "gender": "Male", "capacity": "240 students", "facilities": ["WiFi", "Mountain view", "Study rooms"] },
+        { "name": "Akoko Hall", "price": "₦38,000", "gender": "Female", "capacity": "200 students", "facilities": ["WiFi", "Common areas", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Main Gate to Faculty Areas", "fare": "₦80", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Bus", "route": "Campus to Akure", "fare": "₦800", "schedule": "7:00 AM - 6:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Akungba Town", "fare": "₦100", "schedule": "6:00 AM - 11:00 PM" }
+      ],
+      "food": [
+        { "name": "Hilltop Cafeteria", "type": "cafeteria", "price_range": "₦350-₦750", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦500-₦1000", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦250-₦600", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.aaua.edu.ng",
+        "academic_calendar": "https://aaua.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Science", "email": "science@aaua.edu.ng", "phone": "+234-34-720-1234" },
+          { "faculty": "Arts", "email": "arts@aaua.edu.ng", "phone": "+234-34-720-1235" },
+          { "faculty": "Education", "email": "education@aaua.edu.ng", "phone": "+234-34-720-1236" },
+          { "faculty": "Law", "email": "law@aaua.edu.ng", "phone": "+234-34-720-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "GTBank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "AAUA Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "ICT Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "mouau",
+      "name": "Michael Okpara University of Agriculture (MOUAU)",
+      "location": "Umudike, Nigeria",
+      "description": "A specialized agricultural university established in 1992, known for excellence in agricultural sciences and research.",
+      "campus_map": [
+        { "id": "umudike-campus", "name": "Umudike Campus", "type": "campus", "lat": 5.472, "lng": 7.550, "description": "Agricultural research campus" },
+        { "id": "mouau-lib", "name": "Agricultural Library", "type": "library", "lat": 5.473, "lng": 7.551, "description": "Specialized agricultural library" },
+        { "id": "okpara-hall", "name": "Okpara Hall", "type": "hostel", "lat": 5.471, "lng": 7.549, "description": "Male hostel accommodation" },
+        { "id": "abia-hall", "name": "Abia Hall", "type": "hostel", "lat": 5.474, "lng": 7.552, "description": "Female hostel accommodation" },
+        { "id": "mainstreet-atm", "name": "Mainstreet Bank ATM", "type": "bank", "lat": 5.472, "lng": 7.550, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Okpara Hall", "price": "₦37,000", "gender": "Male", "capacity": "250 students", "facilities": ["WiFi", "Farm access", "Study rooms"] },
+        { "name": "Abia Hall", "price": "₦39,000", "gender": "Female", "capacity": "200 students", "facilities": ["WiFi", "Common areas", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Farm Areas", "fare": "₦100", "schedule": "6:00 AM - 8:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Umuahia", "fare": "₦400", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Ikot Ekpene", "fare": "₦300", "schedule": "7:00 AM - 7:00 PM" }
+      ],
+      "food": [
+        { "name": "Agricultural Cafeteria", "type": "cafeteria", "price_range": "₦400-₦800", "location": "Student Center", "hours": "6:30 AM - 8:30 PM" },
+        { "name": "Farm Restaurant", "type": "restaurant", "price_range": "₦550-₦1100", "location": "Farm Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦300-₦650", "location": "Main Campus", "hours": "7:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.mouau.edu.ng",
+        "academic_calendar": "https://mouau.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Agriculture", "email": "agric@mouau.edu.ng", "phone": "+234-88-220-1234" },
+          { "faculty": "Veterinary Medicine", "email": "vetmed@mouau.edu.ng", "phone": "+234-88-220-1235" },
+          { "faculty": "Engineering", "email": "eng@mouau.edu.ng", "phone": "+234-88-220-1236" },
+          { "faculty": "Natural Resources", "email": "natres@mouau.edu.ng", "phone": "+234-88-220-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Mainstreet Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "MOUAU Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Agricultural Research Center", "type": "research", "location": "Farm Complex", "hours": "8:00 AM - 5:00 PM" }
+      ]
+    },
+    {
+      "id": "kasu",
+      "name": "Kaduna State University (KASU)",
+      "location": "Kaduna, Nigeria",
+      "description": "A state university established in 2004, known for modern facilities and diverse academic programs.",
+      "campus_map": [
+        { "id": "kasu-campus", "name": "KASU Campus", "type": "campus", "lat": 10.526, "lng": 7.439, "description": "Modern campus in Kaduna" },
+        { "id": "kasu-lib", "name": "KASU Library", "type": "library", "lat": 10.527, "lng": 7.440, "description": "Central university library" },
+        { "id": "kaduna-hall", "name": "Kaduna Hall", "type": "hostel", "lat": 10.525, "lng": 7.438, "description": "Male hostel accommodation" },
+        { "id": "zaria-hall", "name": "Zaria Hall", "type": "hostel", "lat": 10.528, "lng": 7.441, "description": "Female hostel accommodation" },
+        { "id": "skye-atm", "name": "Skye Bank ATM", "type": "bank", "lat": 10.526, "lng": 7.439, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Kaduna Hall", "price": "₦40,000", "gender": "Male", "capacity": "280 students", "facilities": ["WiFi", "Modern facilities", "Study areas"] },
+        { "name": "Zaria Hall", "price": "₦42,000", "gender": "Female", "capacity": "240 students", "facilities": ["WiFi", "Common rooms", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Kaduna City", "fare": "₦300", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Kawo", "fare": "₦200", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Central Cafeteria", "type": "cafeteria", "price_range": "₦450-₦900", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦600-₦1200", "location": "Faculty Complex", "hours": "11:00 AM - 8:30 PM" },
+        { "name": "Campus Fast Food", "type": "fast food", "price_range": "₦350-₦750", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.kasu.edu.ng",
+        "academic_calendar": "https://kasu.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Medicine", "email": "med@kasu.edu.ng", "phone": "+234-62-290-1234" },
+          { "faculty": "Science", "email": "science@kasu.edu.ng", "phone": "+234-62-290-1235" },
+          { "faculty": "Education", "email": "education@kasu.edu.ng", "phone": "+234-62-290-1236" },
+          { "faculty": "Management Sciences", "email": "mgt@kasu.edu.ng", "phone": "+234-62-290-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Skye Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "KASU Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Computer Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "imsu",
+      "name": "Imo State University (IMSU)",
+      "location": "Owerri, Nigeria",
+      "description": "A state university established in 1981, known for academic excellence and beautiful campus environment.",
+      "campus_map": [
+        { "id": "imsu-campus", "name": "IMSU Campus", "type": "campus", "lat": 5.484, "lng": 7.035, "description": "Main campus in Owerri" },
+        { "id": "imsu-lib", "name": "IMSU Library", "type": "library", "lat": 5.485, "lng": 7.036, "description": "Central university library" },
+        { "id": "imo-hall", "name": "Imo Hall", "type": "hostel", "lat": 5.483, "lng": 7.034, "description": "Male hostel accommodation" },
+        { "id": "orlu-hall", "name": "Orlu Hall", "type": "hostel", "lat": 5.486, "lng": 7.037, "description": "Female hostel accommodation" },
+        { "id": "zenith-imsu", "name": "Zenith Bank ATM", "type": "bank", "lat": 5.484, "lng": 7.035, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Imo Hall", "price": "₦39,000", "gender": "Male", "capacity": "300 students", "facilities": ["WiFi", "Study rooms", "Recreation area"] },
+        { "name": "Orlu Hall", "price": "₦41,000", "gender": "Female", "capacity": "250 students", "facilities": ["WiFi", "Common areas", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Owerri City", "fare": "₦200", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Wetheral Road", "fare": "₦150", "schedule": "6:30 AM - 10:00 PM" }
+      ],
+      "food": [
+        { "name": "Student Cafeteria", "type": "cafeteria", "price_range": "₦400-₦850", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦550-₦1100", "location": "Faculty Complex", "hours": "11:00 AM - 8:00 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦350-₦700", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.imsu.edu.ng",
+        "academic_calendar": "https://imsu.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Medicine", "email": "med@imsu.edu.ng", "phone": "+234-83-230-1234" },
+          { "faculty": "Engineering", "email": "eng@imsu.edu.ng", "phone": "+234-83-230-1235" },
+          { "faculty": "Science", "email": "science@imsu.edu.ng", "phone": "+234-83-230-1236" },
+          { "faculty": "Law", "email": "law@imsu.edu.ng", "phone": "+234-83-230-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Zenith Bank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "IMSU Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "ICT Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "unizik",
+      "name": "Nnamdi Azikiwe University (UNIZIK)",
+      "location": "Awka, Nigeria",
+      "description": "A federal university established in 1991, named after Nigeria's first President, known for academic excellence and innovation.",
+      "campus_map": [
+        { "id": "awka-campus", "name": "Awka Campus", "type": "campus", "lat": 6.210, "lng": 7.070, "description": "Main campus in Anambra State" },
+        { "id": "unizik-lib", "name": "UNIZIK Library", "type": "library", "lat": 6.211, "lng": 7.071, "description": "Central university library" },
+        { "id": "azikiwe-hall", "name": "Azikiwe Hall", "type": "hostel", "lat": 6.209, "lng": 7.069, "description": "Male hostel accommodation" },
+        { "id": "anambra-hall", "name": "Anambra Hall", "type": "hostel", "lat": 6.212, "lng": 7.072, "description": "Female hostel accommodation" },
+        { "id": "gtbank-unizik", "name": "GTBank ATM", "type": "bank", "lat": 6.210, "lng": 7.070, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Azikiwe Hall", "price": "₦42,000", "gender": "Male", "capacity": "320 students", "facilities": ["WiFi", "Study rooms", "Sports facilities"] },
+        { "name": "Anambra Hall", "price": "₦44,000", "gender": "Female", "capacity": "280 students", "facilities": ["WiFi", "Common areas", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Bus", "route": "Main Gate to Faculty Areas", "fare": "₦100", "schedule": "7:00 AM - 9:00 PM" },
+        { "type": "Tricycle", "route": "Campus to Awka City", "fare": "₦200", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Bus", "route": "Campus to Onitsha", "fare": "₦400", "schedule": "6:30 AM - 8:00 PM" }
+      ],
+      "food": [
+        { "name": "Central Cafeteria", "type": "cafeteria", "price_range": "₦450-₦900", "location": "Student Center", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦600-₦1200", "location": "Faculty Complex", "hours": "11:00 AM - 8:30 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦350-₦750", "location": "Main Campus", "hours": "8:00 AM - 9:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.unizik.edu.ng",
+        "academic_calendar": "https://unizik.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Medicine", "email": "med@unizik.edu.ng", "phone": "+234-48-550-1234" },
+          { "faculty": "Engineering", "email": "eng@unizik.edu.ng", "phone": "+234-48-550-1235" },
+          { "faculty": "Science", "email": "science@unizik.edu.ng", "phone": "+234-48-550-1236" },
+          { "faculty": "Law", "email": "law@unizik.edu.ng", "phone": "+234-48-550-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 4:00 PM" },
+          { "office": "Registry", "location": "Senate Building", "hours": "8:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "GTBank ATM", "type": "bank", "location": "Main Campus", "hours": "24/7" },
+        { "name": "University Health Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "UNIZIK Bookshop", "type": "bookstore", "location": "Student Union", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Computer Building", "hours": "8:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "covenant",
+      "name": "Covenant University",
+      "location": "Ota, Nigeria",
+      "description": "A leading private Christian university established in 2002, known for academic excellence, innovation, and world-class facilities.",
+      "campus_map": [
+        { "id": "covenant-campus", "name": "Covenant Campus", "type": "campus", "lat": 6.672, "lng": 3.158, "description": "Modern private university campus" },
+        { "id": "covenant-lib", "name": "Centre for Learning Resources", "type": "library", "lat": 6.673, "lng": 3.159, "description": "State-of-the-art digital library" },
+        { "id": "male-hostel", "name": "Male Hostel Complex", "type": "hostel", "lat": 6.671, "lng": 3.157, "description": "Modern male accommodation" },
+        { "id": "female-hostel", "name": "Female Hostel Complex", "type": "hostel", "lat": 6.674, "lng": 3.160, "description": "Modern female accommodation" },
+        { "id": "covenant-bank", "name": "Campus Bank", "type": "bank", "lat": 6.672, "lng": 3.158, "description": "On-campus banking services" }
+      ],
+      "hostels": [
+        { "name": "Male Hostel Complex", "price": "₦800,000", "gender": "Male", "capacity": "2000 students", "facilities": ["WiFi", "AC rooms", "Study areas", "Gym", "Laundry"] },
+        { "name": "Female Hostel Complex", "price": "₦800,000", "gender": "Female", "capacity": "1800 students", "facilities": ["WiFi", "AC rooms", "Study areas", "Beauty salon", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Hostel to Academic Block", "fare": "Free", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "School Bus", "route": "Campus to Lagos", "fare": "₦1000", "schedule": "Weekends only" },
+        { "type": "Tricycle", "route": "Campus to Ota Town", "fare": "₦300", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "Main Cafeteria", "type": "cafeteria", "price_range": "₦1000-₦2500", "location": "Student Center", "hours": "6:00 AM - 10:00 PM" },
+        { "name": "Faculty Lounge", "type": "restaurant", "price_range": "₦1500-₦3000", "location": "Academic Block", "hours": "11:00 AM - 9:00 PM" },
+        { "name": "Fast Food Court", "type": "fast food", "price_range": "₦800-₦2000", "location": "Student Union", "hours": "7:00 AM - 11:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.covenantuniversity.edu.ng",
+        "academic_calendar": "https://covenantuniversity.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Engineering", "email": "eng@covenantuniversity.edu.ng", "phone": "+234-1-790-1234" },
+          { "faculty": "Science & Technology", "email": "cst@covenantuniversity.edu.ng", "phone": "+234-1-790-1235" },
+          { "faculty": "Management Sciences", "email": "mgt@covenantuniversity.edu.ng", "phone": "+234-1-790-1236" },
+          { "faculty": "Social Sciences", "email": "socsci@covenantuniversity.edu.ng", "phone": "+234-1-790-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Development", "location": "Admin Building", "hours": "8:00 AM - 5:00 PM" },
+          { "office": "Academic Affairs", "location": "Senate Building", "hours": "8:00 AM - 5:00 PM" },
+          { "office": "Bursary", "location": "Finance Building", "hours": "9:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Campus Bank", "type": "bank", "location": "Student Center", "hours": "8:00 AM - 4:00 PM" },
+        { "name": "Medical Center", "type": "healthcare", "location": "Health Complex", "hours": "24/7" },
+        { "name": "Covenant Bookshop", "type": "bookstore", "location": "Academic Block", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Support Center", "type": "internet", "location": "Library Complex", "hours": "24/7" },
+        { "name": "Sports Complex", "type": "recreation", "location": "Sports Center", "hours": "6:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "babcock",
+      "name": "Babcock University",
+      "location": "Ilishan-Remo, Nigeria",
+      "description": "A prestigious private Seventh-day Adventist university established in 1999, known for medicine, engineering, and holistic education.",
+      "campus_map": [
+        { "id": "babcock-campus", "name": "Babcock Campus", "type": "campus", "lat": 6.896, "lng": 3.700, "description": "Expansive private university campus" },
+        { "id": "babcock-lib", "name": "Babcock University Library", "type": "library", "lat": 6.897, "lng": 3.701, "description": "Modern academic library" },
+        { "id": "male-halls", "name": "Male Residence Halls", "type": "hostel", "lat": 6.895, "lng": 3.699, "description": "Male student accommodation" },
+        { "id": "female-halls", "name": "Female Residence Halls", "type": "hostel", "lat": 6.898, "lng": 3.702, "description": "Female student accommodation" },
+        { "id": "babcock-bank", "name": "Campus Banking Hall", "type": "bank", "lat": 6.896, "lng": 3.700, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Male Residence Halls", "price": "₦750,000", "gender": "Male", "capacity": "1500 students", "facilities": ["WiFi", "AC rooms", "Study lounges", "Fitness center"] },
+        { "name": "Female Residence Halls", "price": "₦750,000", "gender": "Female", "capacity": "1300 students", "facilities": ["WiFi", "AC rooms", "Study areas", "Beauty center", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Hostel to Academic Areas", "fare": "Free", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "School Bus", "route": "Campus to Lagos/Ibadan", "fare": "₦800", "schedule": "Weekends" },
+        { "type": "Tricycle", "route": "Campus to Ilishan Town", "fare": "₦200", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "University Cafeteria", "type": "cafeteria", "price_range": "₦800-₦2000", "location": "Student Center", "hours": "6:00 AM - 10:00 PM" },
+        { "name": "Faculty Dining", "type": "restaurant", "price_range": "₦1200-₦2800", "location": "Faculty Building", "hours": "11:00 AM - 9:00 PM" },
+        { "name": "Quick Bites", "type": "fast food", "price_range": "₦600-₦1500", "location": "Student Union", "hours": "7:00 AM - 11:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.babcock.edu.ng",
+        "academic_calendar": "https://babcock.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Medicine & Health Sciences", "email": "med@babcock.edu.ng", "phone": "+234-1-700-1234" },
+          { "faculty": "Engineering", "email": "eng@babcock.edu.ng", "phone": "+234-1-700-1235" },
+          { "faculty": "Management Sciences", "email": "mgt@babcock.edu.ng", "phone": "+234-1-700-1236" },
+          { "faculty": "Computing & Applied Sciences", "email": "cas@babcock.edu.ng", "phone": "+234-1-700-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 5:00 PM" },
+          { "office": "Academic Affairs", "location": "Senate Building", "hours": "8:00 AM - 5:00 PM" },
+          { "office": "Finance Office", "location": "Finance Building", "hours": "9:00 AM - 4:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Campus Banking Hall", "type": "bank", "location": "Student Center", "hours": "8:00 AM - 4:00 PM" },
+        { "name": "Babcock University Teaching Hospital", "type": "healthcare", "location": "Medical Complex", "hours": "24/7" },
+        { "name": "University Bookstore", "type": "bookstore", "location": "Academic Block", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "IT Support Center", "type": "internet", "location": "Library", "hours": "24/7" },
+        { "name": "Recreation Center", "type": "recreation", "location": "Sports Complex", "hours": "6:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "bells",
+      "name": "Bells University of Technology",
+      "location": "Ota, Nigeria",
+      "description": "A private technology-focused university established in 2005, known for engineering, applied sciences, and entrepreneurship.",
+      "campus_map": [
+        { "id": "bells-campus", "name": "Bells Campus", "type": "campus", "lat": 6.685, "lng": 3.145, "description": "Technology-focused campus" },
+        { "id": "bells-lib", "name": "Technology Library", "type": "library", "lat": 6.686, "lng": 3.146, "description": "Specialized technology library" },
+        { "id": "bells-male", "name": "Male Hostel", "type": "hostel", "lat": 6.684, "lng": 3.144, "description": "Male student accommodation" },
+        { "id": "bells-female", "name": "Female Hostel", "type": "hostel", "lat": 6.687, "lng": 3.147, "description": "Female student accommodation" },
+        { "id": "bells-atm", "name": "Campus ATM", "type": "bank", "lat": 6.685, "lng": 3.145, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Male Hostel", "price": "₦600,000", "gender": "Male", "capacity": "800 students", "facilities": ["WiFi", "Study rooms", "Lab access", "Sports facilities"] },
+        { "name": "Female Hostel", "price": "₦600,000", "gender": "Female", "capacity": "700 students", "facilities": ["WiFi", "Study areas", "Common rooms", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Hostel to Engineering Labs", "fare": "Free", "schedule": "7:00 AM - 10:00 PM" },
+        { "type": "School Bus", "route": "Campus to Lagos", "fare": "₦700", "schedule": "Weekends" },
+        { "type": "Tricycle", "route": "Campus to Ota", "fare": "₦250", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "Engineering Cafeteria", "type": "cafeteria", "price_range": "₦700-₦1800", "location": "Engineering Block", "hours": "7:00 AM - 9:00 PM" },
+        { "name": "Student Restaurant", "type": "restaurant", "price_range": "₦1000-₦2500", "location": "Student Center", "hours": "11:00 AM - 9:00 PM" },
+        { "name": "Tech Café", "type": "fast food", "price_range": "₦500-₦1200", "location": "Library Complex", "hours": "8:00 AM - 10:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.bellsuniversity.edu.ng",
+        "academic_calendar": "https://bellsuniversity.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Engineering", "email": "eng@bellsuniversity.edu.ng", "phone": "+234-1-775-1234" },
+          { "faculty": "Applied Sciences", "email": "science@bellsuniversity.edu.ng", "phone": "+234-1-775-1235" },
+          { "faculty": "Management Technology", "email": "mgt@bellsuniversity.edu.ng", "phone": "+234-1-775-1236" },
+          { "faculty": "Environmental Sciences", "email": "env@bellsuniversity.edu.ng", "phone": "+234-1-775-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 5:00 PM" },
+          { "office": "Academic Office", "location": "Senate Building", "hours": "8:00 AM - 5:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Campus ATM", "type": "bank", "location": "Student Center", "hours": "24/7" },
+        { "name": "Health Center", "type": "healthcare", "location": "Medical Center", "hours": "8:00 AM - 8:00 PM" },
+        { "name": "Bells Bookstore", "type": "bookstore", "location": "Academic Block", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Technology Center", "type": "internet", "location": "Engineering Block", "hours": "24/7" }
+      ]
+    },
+    {
+      "id": "landmark",
+      "name": "Landmark University",
+      "location": "Omu-Aran, Nigeria",
+      "description": "A private agricultural university established in 2014, known for sustainable agriculture, technology integration, and innovation.",
+      "campus_map": [
+        { "id": "landmark-campus", "name": "Landmark Campus", "type": "campus", "lat": 8.133, "lng": 5.100, "description": "Modern agricultural campus" },
+        { "id": "landmark-lib", "name": "Digital Library", "type": "library", "lat": 8.134, "lng": 5.101, "description": "State-of-the-art digital library" },
+        { "id": "landmark-male", "name": "Male Residence", "type": "hostel", "lat": 8.132, "lng": 5.099, "description": "Male student accommodation" },
+        { "id": "landmark-female", "name": "Female Residence", "type": "hostel", "lat": 8.135, "lng": 5.102, "description": "Female student accommodation" },
+        { "id": "landmark-bank", "name": "Banking Center", "type": "bank", "lat": 8.133, "lng": 5.100, "description": "Campus banking services" }
+      ],
+      "hostels": [
+        { "name": "Male Residence", "price": "₦650,000", "gender": "Male", "capacity": "1000 students", "facilities": ["WiFi", "AC rooms", "Farm access", "Study areas"] },
+        { "name": "Female Residence", "price": "₦650,000", "gender": "Female", "capacity": "900 students", "facilities": ["WiFi", "AC rooms", "Common areas", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Hostel to Farm/Labs", "fare": "Free", "schedule": "6:00 AM - 10:00 PM" },
+        { "type": "School Bus", "route": "Campus to Ilorin", "fare": "₦600", "schedule": "Weekends" },
+        { "type": "Tricycle", "route": "Campus to Omu-Aran", "fare": "₦200", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "Agricultural Cafeteria", "type": "cafeteria", "price_range": "₦600-₦1500", "location": "Student Center", "hours": "6:00 AM - 10:00 PM" },
+        { "name": "Farm-to-Table Restaurant", "type": "restaurant", "price_range": "₦900-₦2200", "location": "Farm Complex", "hours": "11:00 AM - 9:00 PM" },
+        { "name": "Quick Serve", "type": "fast food", "price_range": "₦400-₦1000", "location": "Academic Block", "hours": "7:00 AM - 10:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.lmu.edu.ng",
+        "academic_calendar": "https://lmu.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Agriculture", "email": "agric@lmu.edu.ng", "phone": "+234-31-805-1234" },
+          { "faculty": "Engineering", "email": "eng@lmu.edu.ng", "phone": "+234-31-805-1235" },
+          { "faculty": "Science & Technology", "email": "science@lmu.edu.ng", "phone": "+234-31-805-1236" },
+          { "faculty": "Management Sciences", "email": "mgt@lmu.edu.ng", "phone": "+234-31-805-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 5:00 PM" },
+          { "office": "Academic Affairs", "location": "Senate Building", "hours": "8:00 AM - 5:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Banking Center", "type": "bank", "location": "Student Center", "hours": "8:00 AM - 4:00 PM" },
+        { "name": "Health Services", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "Campus Bookstore", "type": "bookstore", "location": "Academic Block", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Library", "hours": "24/7" },
+        { "name": "Agricultural Research Center", "type": "research", "location": "Farm Complex", "hours": "8:00 AM - 6:00 PM" }
+      ]
+    },
+    {
+      "id": "ajayi-crowther",
+      "name": "Ajayi Crowther University",
+      "location": "Oyo, Nigeria",
+      "description": "A private Anglican university established in 2005, known for liberal arts, sciences, and character development.",
+      "campus_map": [
+        { "id": "acu-campus", "name": "ACU Campus", "type": "campus", "lat": 7.853, "lng": 3.930, "description": "Anglican university campus" },
+        { "id": "acu-lib", "name": "University Library", "type": "library", "lat": 7.854, "lng": 3.931, "description": "Central academic library" },
+        { "id": "acu-male", "name": "Male Hostel", "type": "hostel", "lat": 7.852, "lng": 3.929, "description": "Male student accommodation" },
+        { "id": "acu-female", "name": "Female Hostel", "type": "hostel", "lat": 7.855, "lng": 3.932, "description": "Female student accommodation" },
+        { "id": "acu-bank", "name": "Campus Bank", "type": "bank", "lat": 7.853, "lng": 3.930, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Male Hostel", "price": "₦550,000", "gender": "Male", "capacity": "600 students", "facilities": ["WiFi", "Study rooms", "Chapel access", "Sports area"] },
+        { "name": "Female Hostel", "price": "₦550,000", "gender": "Female", "capacity": "500 students", "facilities": ["WiFi", "Study areas", "Common rooms", "Security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Hostel to Academic Areas", "fare": "Free", "schedule": "7:00 AM - 10:00 PM" },
+        { "type": "School Bus", "route": "Campus to Ibadan", "fare": "₦500", "schedule": "Weekends" },
+        { "type": "Tricycle", "route": "Campus to Oyo Town", "fare": "₦150", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "University Cafeteria", "type": "cafeteria", "price_range": "₦500-₦1300", "location": "Student Center", "hours": "6:30 AM - 9:30 PM" },
+        { "name": "Faculty Dining", "type": "restaurant", "price_range": "₦800-₦2000", "location": "Faculty Building", "hours": "11:00 AM - 8:30 PM" },
+        { "name": "Campus Eatery", "type": "fast food", "price_range": "₦350-₦900", "location": "Student Union", "hours": "7:00 AM - 10:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.acu.edu.ng",
+        "academic_calendar": "https://acu.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Natural Sciences", "email": "science@acu.edu.ng", "phone": "+234-38-240-1234" },
+          { "faculty": "Social Sciences", "email": "socsci@acu.edu.ng", "phone": "+234-38-240-1235" },
+          { "faculty": "Humanities", "email": "humanities@acu.edu.ng", "phone": "+234-38-240-1236" },
+          { "faculty": "Law", "email": "law@acu.edu.ng", "phone": "+234-38-240-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 5:00 PM" },
+          { "office": "Academic Affairs", "location": "Senate Building", "hours": "8:00 AM - 5:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Campus Bank", "type": "bank", "location": "Student Center", "hours": "8:00 AM - 4:00 PM" },
+        { "name": "Health Center", "type": "healthcare", "location": "Medical Center", "hours": "8:00 AM - 8:00 PM" },
+        { "name": "ACU Bookstore", "type": "bookstore", "location": "Academic Block", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "Computer Center", "type": "internet", "location": "Library", "hours": "8:00 AM - 10:00 PM" },
+        { "name": "Chapel", "type": "religious", "location": "Chapel Complex", "hours": "6:00 AM - 10:00 PM" }
+      ]
+    },
+    {
+      "id": "american-university",
+      "name": "American University of Nigeria (AUN)",
+      "location": "Yola, Nigeria",
+      "description": "A private American-style liberal arts university established in 2005, known for international standards and diverse programs.",
+      "campus_map": [
+        { "id": "aun-campus", "name": "AUN Campus", "type": "campus", "lat": 9.200, "lng": 12.480, "description": "American-style campus" },
+        { "id": "aun-lib", "name": "AUN Library", "type": "library", "lat": 9.201, "lng": 12.481, "description": "Modern academic library" },
+        { "id": "aun-residence", "name": "Student Residence", "type": "hostel", "lat": 9.199, "lng": 12.479, "description": "Co-ed residence halls" },
+        { "id": "aun-bank", "name": "Campus Banking", "type": "bank", "lat": 9.200, "lng": 12.480, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Student Residence", "price": "₦900,000", "gender": "Mixed", "capacity": "800 students", "facilities": ["WiFi", "AC rooms", "Study lounges", "Gym", "International standard"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Campus Internal", "fare": "Free", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "Airport Shuttle", "route": "Campus to Yola Airport", "fare": "₦2000", "schedule": "On request" },
+        { "type": "City Transport", "route": "Campus to Yola City", "fare": "₦500", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "International Cafeteria", "type": "cafeteria", "price_range": "₦1200-₦3000", "location": "Student Center", "hours": "6:00 AM - 11:00 PM" },
+        { "name": "Faculty Club", "type": "restaurant", "price_range": "₦2000-₦4000", "location": "Faculty Building", "hours": "11:00 AM - 10:00 PM" },
+        { "name": "Quick Bites", "type": "fast food", "price_range": "₦800-₦2000", "location": "Student Union", "hours": "7:00 AM - 11:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.aun.edu.ng",
+        "academic_calendar": "https://aun.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Arts & Sciences", "email": "arts@aun.edu.ng", "phone": "+234-75-627-1234" },
+          { "faculty": "Business & Entrepreneurship", "email": "business@aun.edu.ng", "phone": "+234-75-627-1235" },
+          { "faculty": "Engineering", "email": "eng@aun.edu.ng", "phone": "+234-75-627-1236" },
+          { "faculty": "Information Technology", "email": "it@aun.edu.ng", "phone": "+234-75-627-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Life", "location": "Admin Building", "hours": "8:00 AM - 5:00 PM" },
+          { "office": "Academic Affairs", "location": "Senate Building", "hours": "8:00 AM - 5:00 PM" },
+          { "office": "International Office", "location": "Admin Building", "hours": "8:00 AM - 5:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Campus Banking", "type": "bank", "location": "Student Center", "hours": "8:00 AM - 4:00 PM" },
+        { "name": "Health & Wellness Center", "type": "healthcare", "location": "Medical Center", "hours": "24/7" },
+        { "name": "AUN Bookstore", "type": "bookstore", "location": "Academic Block", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "IT Support Center", "type": "internet", "location": "Library", "hours": "24/7" },
+        { "name": "Career Services", "type": "career", "location": "Student Center", "hours": "8:00 AM - 5:00 PM" }
+      ]
+    },
+    {
+      "id": "bowen",
+      "name": "Bowen University",
+      "location": "Iwo, Nigeria",
+      "description": "A private Baptist university established in 2001, known for academic excellence, moral values, and holistic education.",
+      "campus_map": [
+        { "id": "bowen-campus", "name": "Bowen Campus", "type": "campus", "lat": 7.630, "lng": 4.182, "description": "Baptist university campus" },
+        { "id": "bowen-lib", "name": "Bowen Library", "type": "library", "lat": 7.631, "lng": 4.183, "description": "Central academic library" },
+        { "id": "bowen-male", "name": "Male Hostel", "type": "hostel", "lat": 7.629, "lng": 4.181, "description": "Male student accommodation" },
+        { "id": "bowen-female", "name": "Female Hostel", "type": "hostel", "lat": 7.632, "lng": 4.184, "description": "Female student accommodation" },
+        { "id": "bowen-bank", "name": "Campus Bank", "type": "bank", "lat": 7.630, "lng": 4.182, "description": "Banking services" }
+      ],
+      "hostels": [
+        { "name": "Male Hostel", "price": "₦700,000", "gender": "Male", "capacity": "1200 students", "facilities": ["WiFi", "Study rooms", "Chapel access", "Sports facilities"] },
+        { "name": "Female Hostel", "price": "₦700,000", "gender": "Female", "capacity": "1000 students", "facilities": ["WiFi", "Study areas", "Common rooms", "24/7 security"] }
+      ],
+      "transport": [
+        { "type": "Campus Shuttle", "route": "Hostel to Academic Areas", "fare": "Free", "schedule": "6:00 AM - 11:00 PM" },
+        { "type": "School Bus", "route": "Campus to Ibadan/Lagos", "fare": "₦800", "schedule": "Weekends" },
+        { "type": "Tricycle", "route": "Campus to Iwo Town", "fare": "₦200", "schedule": "24/7" }
+      ],
+      "food": [
+        { "name": "University Cafeteria", "type": "cafeteria", "price_range": "₦600-₦1600", "location": "Student Center", "hours": "6:00 AM - 10:00 PM" },
+        { "name": "Faculty Restaurant", "type": "restaurant", "price_range": "₦1000-₦2500", "location": "Faculty Building", "hours": "11:00 AM - 9:00 PM" },
+        { "name": "Campus Café", "type": "fast food", "price_range": "₦400-₦1200", "location": "Student Union", "hours": "7:00 AM - 10:00 PM" }
+      ],
+      "academics": {
+        "registration_portal": "https://portal.bowen.edu.ng",
+        "academic_calendar": "https://bowen.edu.ng/calendar",
+        "faculty_contacts": [
+          { "faculty": "Medicine", "email": "med@bowen.edu.ng", "phone": "+234-35-540-1234" },
+          { "faculty": "Science", "email": "science@bowen.edu.ng", "phone": "+234-35-540-1235" },
+          { "faculty": "Social & Management Sciences", "email": "sms@bowen.edu.ng", "phone": "+234-35-540-1236" },
+          { "faculty": "Computing", "email": "computing@bowen.edu.ng", "phone": "+234-35-540-1237" }
+        ],
+        "important_offices": [
+          { "office": "Student Affairs", "location": "Admin Building", "hours": "8:00 AM - 5:00 PM" },
+          { "office": "Academic Affairs", "location": "Senate Building", "hours": "8:00 AM - 5:00 PM" }
+        ]
+      },
+      "services": [
+        { "name": "Campus Bank", "type": "bank", "location": "Student Center", "hours": "8:00 AM - 4:00 PM" },
+        { "name": "Bowen University Teaching Hospital", "type": "healthcare", "location": "Medical Complex", "hours": "24/7" },
+        { "name": "University Bookstore", "type": "bookstore", "location": "Academic Block", "hours": "8:00 AM - 6:00 PM" },
+        { "name": "ICT Center", "type": "internet", "location": "Library", "hours": "24/7" },
+        { "name": "Chapel", "type": "religious", "location": "Chapel Complex", "hours": "6:00 AM - 10:00 PM" }
+      ]
+    }
+  ]
+}
