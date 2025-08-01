@@ -60,34 +60,34 @@ const LandingPage = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-accent-50 dark:from-secondary-950 dark:via-secondary-900 dark:to-primary-950 transition-colors duration-500">
+    <div className="min-h-screen bg-gradient-to-br from-primary-50 via-secondary-50 to-accent-50 transition-colors duration-500">
       {/* Hero Section */}
       <div className="relative overflow-hidden">
         {/* Background Pattern */}
-        <div className="absolute inset-0 bg-grid-pattern opacity-5 dark:opacity-10"></div>
+        <div className="absolute inset-0 bg-grid-pattern opacity-5"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-primary-500/10 via-transparent to-accent-500/10"></div>
 
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-32">
           <div className="text-center">
             {/* Academic Badge */}
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary-100 dark:bg-primary-900/30 text-primary-700 dark:text-primary-300 text-sm font-medium mb-8 border border-primary-200 dark:border-primary-800">
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-primary-100 text-primary-700 text-sm font-medium mb-8 border border-primary-200">
               <Award className="w-4 h-4 mr-2" />
               Trusted by Nigerian Students
             </div>
 
-            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-secondary-900 dark:text-secondary-100 mb-8 leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-7xl font-bold text-secondary-900 mb-8 leading-tight">
               Your Complete
-              <span className="block bg-gradient-to-r from-primary-600 to-accent-600 dark:from-primary-400 dark:to-accent-400 bg-clip-text text-transparent">
+              <span className="block bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent">
                 Student Guide
               </span>
             </h1>
 
-            <p className="text-xl sm:text-2xl text-secondary-600 dark:text-secondary-300 mb-12 max-w-4xl mx-auto leading-relaxed font-medium">
+            <p className="text-xl sm:text-2xl text-secondary-600 mb-12 max-w-4xl mx-auto leading-relaxed font-medium">
               Navigate university life with confidence. Discover everything you need to know about
-              <span className="text-primary-600 dark:text-primary-400 font-semibold"> campus maps</span>,
-              <span className="text-success-600 dark:text-success-400 font-semibold"> hostels</span>,
-              <span className="text-accent-600 dark:text-accent-400 font-semibold"> transport</span>, and
-              <span className="text-warning-600 dark:text-warning-400 font-semibold"> student services</span>.
+              <span className="text-primary-600 font-semibold"> campus maps</span>,
+              <span className="text-success-600 font-semibold"> hostels</span>,
+              <span className="text-accent-600 font-semibold"> transport</span>, and
+              <span className="text-warning-600 font-semibold"> student services</span>.
             </p>
 
             {/* University Selector */}
@@ -101,55 +101,55 @@ const LandingPage = () => {
 
             {/* Statistics Section */}
             <div className="max-w-6xl mx-auto mb-20">
-              <div className="bg-white/80 dark:bg-secondary-900/80 backdrop-blur-sm rounded-3xl shadow-academic-xl p-8 sm:p-12 border border-secondary-200 dark:border-secondary-800">
+              <div className="bg-white/80 backdrop-blur-sm rounded-3xl shadow-academic-xl p-8 sm:p-12 border border-secondary-200">
                 <div className="text-center mb-12">
-                  <h3 className="text-3xl sm:text-4xl font-bold text-secondary-900 dark:text-secondary-100 mb-4">
-                    Explore <span className="text-primary-600 dark:text-primary-400">{getAllUniversities().length}</span> Nigerian Universities
+                  <h3 className="text-3xl sm:text-4xl font-bold text-secondary-900 mb-4">
+                    Explore <span className="text-primary-600">{getAllUniversities().length}</span> Nigerian Universities
                   </h3>
-                  <p className="text-lg text-secondary-600 dark:text-secondary-300 max-w-2xl mx-auto">
+                  <p className="text-lg text-secondary-600 max-w-2xl mx-auto">
                     Comprehensive campus information at your fingertips, trusted by thousands of students
                   </p>
                 </div>
 
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
                   <div className="text-center group">
-                    <div className="bg-gradient-to-br from-primary-100 to-primary-200 dark:from-primary-900/30 dark:to-primary-800/30 rounded-2xl p-4 w-20 h-20 mx-auto mb-4 flex items-center justify-center border border-primary-200 dark:border-primary-800 group-hover:scale-110 transition-transform duration-300">
-                      <Building className="h-10 w-10 text-primary-600 dark:text-primary-400" />
+                    <div className="bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl p-4 w-20 h-20 mx-auto mb-4 flex items-center justify-center border border-primary-200 group-hover:scale-110 transition-transform duration-300">
+                      <Building className="h-10 w-10 text-primary-600" />
                     </div>
-                    <div className="text-3xl font-bold text-secondary-900 dark:text-secondary-100 mb-1">
+                    <div className="text-3xl font-bold text-secondary-900 mb-1">
                       {getAllUniversities().reduce((total, uni) => total + (uni.hostels?.length || 0), 0)}
                     </div>
-                    <div className="text-sm font-medium text-secondary-600 dark:text-secondary-400">Hostels</div>
+                    <div className="text-sm font-medium text-secondary-600">Hostels</div>
                   </div>
 
                   <div className="text-center group">
-                    <div className="bg-gradient-to-br from-success-100 to-success-200 dark:from-success-900/30 dark:to-success-800/30 rounded-2xl p-4 w-20 h-20 mx-auto mb-4 flex items-center justify-center border border-success-200 dark:border-success-800 group-hover:scale-110 transition-transform duration-300">
-                      <Navigation className="h-10 w-10 text-success-600 dark:text-success-400" />
+                    <div className="bg-gradient-to-br from-success-100 to-success-200 rounded-2xl p-4 w-20 h-20 mx-auto mb-4 flex items-center justify-center border border-success-200 group-hover:scale-110 transition-transform duration-300">
+                      <Navigation className="h-10 w-10 text-success-600" />
                     </div>
-                    <div className="text-3xl font-bold text-secondary-900 dark:text-secondary-100 mb-1">
+                    <div className="text-3xl font-bold text-secondary-900 mb-1">
                       {getAllUniversities().reduce((total, uni) => total + (uni.transport?.length || 0), 0)}
                     </div>
-                    <div className="text-sm font-medium text-secondary-600 dark:text-secondary-400">Transport Options</div>
+                    <div className="text-sm font-medium text-secondary-600">Transport Options</div>
                   </div>
 
                   <div className="text-center group">
-                    <div className="bg-gradient-to-br from-warning-100 to-warning-200 dark:from-warning-900/30 dark:to-warning-800/30 rounded-2xl p-4 w-20 h-20 mx-auto mb-4 flex items-center justify-center border border-warning-200 dark:border-warning-800 group-hover:scale-110 transition-transform duration-300">
-                      <Utensils className="h-10 w-10 text-warning-600 dark:text-warning-400" />
+                    <div className="bg-gradient-to-br from-warning-100 to-warning-200 rounded-2xl p-4 w-20 h-20 mx-auto mb-4 flex items-center justify-center border border-warning-200 group-hover:scale-110 transition-transform duration-300">
+                      <Utensils className="h-10 w-10 text-warning-600" />
                     </div>
-                    <div className="text-3xl font-bold text-secondary-900 dark:text-secondary-100 mb-1">
+                    <div className="text-3xl font-bold text-secondary-900 mb-1">
                       {getAllUniversities().reduce((total, uni) => total + (uni.food?.length || 0), 0)}
                     </div>
-                    <div className="text-sm font-medium text-secondary-600 dark:text-secondary-400">Dining Options</div>
+                    <div className="text-sm font-medium text-secondary-600">Dining Options</div>
                   </div>
 
                   <div className="text-center group">
-                    <div className="bg-gradient-to-br from-error-100 to-error-200 dark:from-error-900/30 dark:to-error-800/30 rounded-2xl p-4 w-20 h-20 mx-auto mb-4 flex items-center justify-center border border-error-200 dark:border-error-800 group-hover:scale-110 transition-transform duration-300">
-                      <Users className="h-10 w-10 text-error-600 dark:text-error-400" />
+                    <div className="bg-gradient-to-br from-error-100 to-error-200 rounded-2xl p-4 w-20 h-20 mx-auto mb-4 flex items-center justify-center border border-error-200 group-hover:scale-110 transition-transform duration-300">
+                      <Users className="h-10 w-10 text-error-600" />
                     </div>
-                    <div className="text-3xl font-bold text-secondary-900 dark:text-secondary-100 mb-1">
+                    <div className="text-3xl font-bold text-secondary-900 mb-1">
                       {getAllUniversities().reduce((total, uni) => total + (uni.services?.length || 0), 0)}
                     </div>
-                    <div className="text-sm font-medium text-secondary-600 dark:text-secondary-400">Services</div>
+                    <div className="text-sm font-medium text-secondary-600">Services</div>
                   </div>
                 </div>
               </div>
@@ -159,17 +159,17 @@ const LandingPage = () => {
       </div>
 
       {/* Features Section */}
-      <div className="bg-white/50 dark:bg-secondary-900/50 backdrop-blur-sm py-20 border-t border-secondary-200 dark:border-secondary-800">
+      <div className="bg-white/50 backdrop-blur-sm py-20 border-t border-secondary-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <div className="inline-flex items-center px-4 py-2 rounded-full bg-accent-100 dark:bg-accent-900/30 text-accent-700 dark:text-accent-300 text-sm font-medium mb-6 border border-accent-200 dark:border-accent-800">
+            <div className="inline-flex items-center px-4 py-2 rounded-full bg-accent-100 text-accent-700 text-sm font-medium mb-6 border border-accent-200">
               <Sparkles className="w-4 h-4 mr-2" />
               Comprehensive Features
             </div>
-            <h2 className="text-4xl sm:text-5xl font-bold text-secondary-900 dark:text-secondary-100 mb-6">
+            <h2 className="text-4xl sm:text-5xl font-bold text-secondary-900 mb-6">
               Everything You Need in One Place
             </h2>
-            <p className="text-xl text-secondary-600 dark:text-secondary-300 max-w-3xl mx-auto leading-relaxed">
+            <p className="text-xl text-secondary-600 max-w-3xl mx-auto leading-relaxed">
               From finding your way around campus to discovering the best food spots, we've got you covered with comprehensive information.
             </p>
           </div>
@@ -178,15 +178,15 @@ const LandingPage = () => {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="group relative bg-white dark:bg-secondary-900 rounded-2xl p-8 shadow-academic hover:shadow-academic-lg transition-all duration-300 border border-secondary-200 dark:border-secondary-800 hover:border-primary-300 dark:hover:border-primary-700 hover:-translate-y-1"
+                className="group relative bg-white rounded-2xl p-8 shadow-academic hover:shadow-academic-lg transition-all duration-300 border border-secondary-200 hover:border-primary-300 hover:-translate-y-1"
               >
                 <div className={`inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br ${feature.gradient} rounded-2xl mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300`}>
                   <feature.icon className="h-8 w-8 text-white" />
                 </div>
-                <h3 className="text-xl font-bold text-secondary-900 dark:text-secondary-100 mb-3 group-hover:text-primary-600 dark:group-hover:text-primary-400 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-secondary-900 mb-3 group-hover:text-primary-600 transition-colors duration-300">
                   {feature.title}
                 </h3>
-                <p className="text-secondary-600 dark:text-secondary-300 leading-relaxed">
+                <p className="text-secondary-600 leading-relaxed">
                   {feature.description}
                 </p>
 
@@ -199,7 +199,7 @@ const LandingPage = () => {
       </div>
 
       {/* CTA Section */}
-      <div className="bg-gradient-to-r from-primary-600 via-primary-700 to-accent-600 dark:from-primary-800 dark:via-primary-900 dark:to-accent-800 py-20 relative overflow-hidden">
+      <div className="bg-gradient-to-r from-primary-600 via-primary-700 to-accent-600 py-20 relative overflow-hidden">
         {/* Background Pattern */}
         <div className="absolute inset-0 bg-grid-pattern opacity-10"></div>
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/5 to-transparent"></div>

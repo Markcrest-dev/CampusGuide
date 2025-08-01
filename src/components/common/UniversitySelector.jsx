@@ -104,7 +104,7 @@ const UniversitySelector = ({
       {/* Search Input */}
       <div className="relative group">
         <div className="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none z-10">
-          <Search className="h-5 w-5 text-secondary-400 dark:text-secondary-500 group-focus-within:text-primary-500 dark:group-focus-within:text-primary-400 transition-colors duration-200" />
+          <Search className="h-5 w-5 text-secondary-400 group-focus-within:text-primary-500 transition-colors duration-200" />
         </div>
         <input
           ref={inputRef}
@@ -114,7 +114,7 @@ const UniversitySelector = ({
           onFocus={() => setIsOpen(true)}
           onKeyDown={handleKeyDown}
           placeholder={placeholder}
-          className="w-full pl-12 pr-12 py-4 bg-white/90 dark:bg-secondary-900/90 backdrop-blur-sm border border-secondary-200 dark:border-secondary-700 rounded-2xl shadow-academic hover:shadow-academic-lg focus:shadow-academic-xl focus:ring-2 focus:ring-primary-500/20 dark:focus:ring-primary-400/20 focus:border-primary-400 dark:focus:border-primary-500 text-secondary-900 dark:text-secondary-100 placeholder-secondary-500 dark:placeholder-secondary-400 transition-all duration-300 text-lg font-medium"
+          className="w-full pl-12 pr-12 py-4 bg-white/90 backdrop-blur-sm border border-secondary-200 rounded-2xl shadow-academic hover:shadow-academic-lg focus:shadow-academic-xl focus:ring-2 focus:ring-primary-500/20 focus:border-primary-400 text-secondary-900 placeholder-secondary-500 transition-all duration-300 text-lg font-medium"
           aria-label="Search universities"
           aria-expanded={isOpen}
           aria-haspopup="listbox"
@@ -122,8 +122,8 @@ const UniversitySelector = ({
         />
         <div className="absolute inset-y-0 right-0 pr-4 flex items-center pointer-events-none">
           <ChevronDown
-            className={`h-5 w-5 text-secondary-400 dark:text-secondary-500 transition-all duration-300 ${
-              isOpen ? 'transform rotate-180 text-primary-500 dark:text-primary-400' : ''
+            className={`h-5 w-5 text-secondary-400 transition-all duration-300 ${
+              isOpen ? 'transform rotate-180 text-primary-500' : ''
             }`}
           />
         </div>
@@ -134,11 +134,11 @@ const UniversitySelector = ({
 
       {/* Dropdown */}
       {isOpen && (
-        <div className="absolute z-50 w-full mt-3 bg-white/95 dark:bg-secondary-900/95 backdrop-blur-sm border border-secondary-200 dark:border-secondary-700 rounded-2xl shadow-academic-xl max-h-96 overflow-hidden animate-slide-up">
+        <div className="absolute z-50 w-full mt-3 bg-white/95 backdrop-blur-sm border border-secondary-200 rounded-2xl shadow-academic-xl max-h-96 overflow-hidden animate-slide-up">
           {/* Dropdown Header */}
-          <div className="px-4 py-3 border-b border-secondary-200 dark:border-secondary-700 bg-secondary-50/50 dark:bg-secondary-800/50">
+          <div className="px-4 py-3 border-b border-secondary-200 bg-secondary-50/50">
             <div className="flex items-center justify-between">
-              <h3 className="text-sm font-semibold text-secondary-900 dark:text-secondary-100 flex items-center space-x-2">
+              <h3 className="text-sm font-semibold text-secondary-900 flex items-center space-x-2">
                 <span>
                   {searchQuery ? `Search Results (${filteredUniversities.length})` : `Nigerian Universities (${filteredUniversities.length})`}
                 </span>
@@ -146,7 +146,7 @@ const UniversitySelector = ({
                   <div className="w-3 h-3 border border-primary-500 border-t-transparent rounded-full animate-spin"></div>
                 )}
               </h3>
-              <div className="text-xs text-secondary-500 dark:text-secondary-400">
+              <div className="text-xs text-secondary-500">
                 Use ↑↓ to navigate, Enter to select
               </div>
             </div>
@@ -154,16 +154,16 @@ const UniversitySelector = ({
 
           {filteredUniversities.length === 0 ? (
             <div className="px-6 py-8 text-center">
-              <div className="bg-secondary-100 dark:bg-secondary-800 rounded-2xl p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
-                <Search className="h-8 w-8 text-secondary-400 dark:text-secondary-500" />
+              <div className="bg-secondary-100 rounded-2xl p-4 w-16 h-16 mx-auto mb-4 flex items-center justify-center">
+                <Search className="h-8 w-8 text-secondary-400" />
               </div>
-              <h3 className="text-lg font-semibold text-secondary-900 dark:text-secondary-100 mb-2">
+              <h3 className="text-lg font-semibold text-secondary-900 mb-2">
                 No universities found
               </h3>
-              <p className="text-secondary-600 dark:text-secondary-300 mb-1">
+              <p className="text-secondary-600 mb-1">
                 No universities found matching "{searchQuery}"
               </p>
-              <p className="text-sm text-secondary-500 dark:text-secondary-400">
+              <p className="text-sm text-secondary-500">
                 Try adjusting your search terms or browse all universities
               </p>
             </div>
@@ -180,9 +180,9 @@ const UniversitySelector = ({
                     onClick={() => handleUniversitySelect(university)}
                     className={`mx-2 mb-2 px-4 py-4 cursor-pointer rounded-2xl transition-all duration-200 group relative overflow-hidden ${
                       isHighlighted
-                        ? 'bg-primary-50 dark:bg-primary-900/30 border border-primary-200 dark:border-primary-800 shadow-academic'
-                        : 'hover:bg-secondary-50 dark:hover:bg-secondary-800/50 border border-transparent hover:border-secondary-200 dark:hover:border-secondary-700'
-                    } ${isSelected ? 'bg-primary-100 dark:bg-primary-900/40 border-primary-300 dark:border-primary-700 shadow-academic' : ''}`}
+                        ? 'bg-primary-50 border border-primary-200 shadow-academic'
+                        : 'hover:bg-secondary-50 border border-transparent hover:border-secondary-200'
+                    } ${isSelected ? 'bg-primary-100 border-primary-300 shadow-academic' : ''}`}
                     role="option"
                     aria-selected={isSelected}
                   >
@@ -194,70 +194,70 @@ const UniversitySelector = ({
                     <div className="flex items-start justify-between">
                       <div className="flex-1 min-w-0 pl-2">
                         <div className="flex items-center space-x-3 mb-2">
-                          <div className="bg-primary-100 dark:bg-primary-900/30 rounded-xl p-2 flex-shrink-0">
-                            <GraduationCap className="h-5 w-5 text-primary-600 dark:text-primary-400" />
+                          <div className="bg-primary-100 rounded-xl p-2 flex-shrink-0">
+                            <GraduationCap className="h-5 w-5 text-primary-600" />
                           </div>
                           <div className="flex-1 min-w-0">
                             <h3 className={`font-semibold text-lg truncate transition-colors duration-200 ${
                               isSelected || isHighlighted
-                                ? 'text-primary-900 dark:text-primary-100'
-                                : 'text-secondary-900 dark:text-secondary-100 group-hover:text-primary-700 dark:group-hover:text-primary-300'
+                                ? 'text-primary-900'
+                                : 'text-secondary-900 group-hover:text-primary-700'
                             }`}>
                               {university.name}
                             </h3>
                             <div className={`flex items-center mt-1 text-sm transition-colors duration-200 ${
                               isSelected || isHighlighted
-                                ? 'text-primary-700 dark:text-primary-300'
-                                : 'text-secondary-500 dark:text-secondary-400'
+                                ? 'text-primary-700'
+                                : 'text-secondary-500'
                             }`}>
                               <MapPin className="h-4 w-4 mr-1 flex-shrink-0" />
                               <span className="truncate">{university.location}</span>
                             </div>
                           </div>
                           {isSelected && (
-                            <div className="bg-primary-600 dark:bg-primary-500 rounded-full p-1 flex-shrink-0">
+                            <div className="bg-primary-600 rounded-full p-1 flex-shrink-0">
                               <Check className="h-3 w-3 text-white" />
                             </div>
                           )}
                         </div>
                         <p className={`text-sm leading-relaxed line-clamp-2 transition-colors duration-200 ${
                           isSelected || isHighlighted
-                            ? 'text-primary-800 dark:text-primary-200'
-                            : 'text-secondary-600 dark:text-secondary-300'
+                            ? 'text-primary-800'
+                            : 'text-secondary-600'
                         }`}>
                           {university.description}
                         </p>
 
                         {showStats && stats && (
-                          <div className="flex items-center flex-wrap gap-3 mt-3 pt-3 border-t border-secondary-200 dark:border-secondary-700">
+                          <div className="flex items-center flex-wrap gap-3 mt-3 pt-3 border-t border-secondary-200">
                             <div className={`flex items-center space-x-1 px-2 py-1 rounded-lg text-xs font-medium transition-colors duration-200 ${
                               isSelected || isHighlighted
-                                ? 'bg-primary-200 dark:bg-primary-800/50 text-primary-800 dark:text-primary-200'
-                                : 'bg-secondary-100 dark:bg-secondary-800 text-secondary-600 dark:text-secondary-300'
+                                ? 'bg-primary-200 text-primary-800'
+                                : 'bg-secondary-100 text-secondary-600'
                             }`}>
                               <Building className="h-3 w-3" />
                               <span>{stats.hostels} hostels</span>
                             </div>
                             <div className={`flex items-center space-x-1 px-2 py-1 rounded-lg text-xs font-medium transition-colors duration-200 ${
                               isSelected || isHighlighted
-                                ? 'bg-success-200 dark:bg-success-800/50 text-success-800 dark:text-success-200'
-                                : 'bg-secondary-100 dark:bg-secondary-800 text-secondary-600 dark:text-secondary-300'
+                                ? 'bg-success-200 text-success-800'
+                                : 'bg-secondary-100 text-secondary-600'
                             }`}>
                               <Navigation className="h-3 w-3" />
                               <span>{stats.transport} transport</span>
                             </div>
                             <div className={`flex items-center space-x-1 px-2 py-1 rounded-lg text-xs font-medium transition-colors duration-200 ${
                               isSelected || isHighlighted
-                                ? 'bg-warning-200 dark:bg-warning-800/50 text-warning-800 dark:text-warning-200'
-                                : 'bg-secondary-100 dark:bg-secondary-800 text-secondary-600 dark:text-secondary-300'
+                                ? 'bg-warning-200 text-warning-800'
+                                : 'bg-secondary-100 text-secondary-600'
                             }`}>
                               <Utensils className="h-3 w-3" />
                               <span>{stats.food} dining</span>
                             </div>
                             <div className={`flex items-center space-x-1 px-2 py-1 rounded-lg text-xs font-medium transition-colors duration-200 ${
                               isSelected || isHighlighted
-                                ? 'bg-accent-200 dark:bg-accent-800/50 text-accent-800 dark:text-accent-200'
-                                : 'bg-secondary-100 dark:bg-secondary-800 text-secondary-600 dark:text-secondary-300'
+                                ? 'bg-accent-200 text-accent-800'
+                                : 'bg-secondary-100 text-secondary-600'
                             }`}>
                               <Users className="h-3 w-3" />
                               <span>{stats.services} services</span>
